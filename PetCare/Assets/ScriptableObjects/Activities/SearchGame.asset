@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d6de782ba36b5645bd5ef3396f3b429, type: 3}
+  m_Name: SearchGame
+  m_EditorClassIdentifier: 
+  id: -6833751900434534891
+  title: Suchspiel
+  icon: {fileID: 2800000, guid: 24855f77ffe206348acf2d5e06a284e0, type: 3}
+  description: Der Hund muss ein verstecktes Objekt suchen
+  points: 10
+  impulseOnEnd: {fileID: 11400000, guid: 3d7e4c864994cd84dae85ec733371ca1, type: 2}
+  isAbortable: 0
+  speed: 1.6

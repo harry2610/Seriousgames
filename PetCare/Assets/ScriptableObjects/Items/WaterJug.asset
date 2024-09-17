@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be1a945d6943a24478c5e325bab4adff, type: 3}
+  m_Name: WaterJug
+  m_EditorClassIdentifier: 
+  id: -1543387717887531884
+  type: 0
+  title: Wasserkanne
+  icon: {fileID: 2800000, guid: 833d6907e1d26b7c599235aae2c7fe3e, type: 3}
+  prefab: {fileID: 7322483108823439667, guid: 3d773ab3aa7a85ed99daa39514aa2a38, type: 3}
+  description: "Eine Wasserkanne,um die Wasserschale aufzuf\xFCllen."
+  stackLimit: 10
+  price: 2
+  conditionEffects:
+  - condition: {fileID: 11400000, guid: 4cfd90f3b9783ef45ade29164aa93b6a, type: 2}
+    modifier: 1
+  bowlType: 0

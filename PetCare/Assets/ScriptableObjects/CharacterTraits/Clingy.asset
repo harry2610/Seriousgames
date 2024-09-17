@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f77d68a9ccb7e9a4f86edcf3ac5aa0e9, type: 3}
+  m_Name: Clingy
+  m_EditorClassIdentifier: 
+  id: -1515636400739894625
+  title: "Anh\xE4nglich"
+  icon: {fileID: 2800000, guid: b88e9ad2cc7d7a040b5b8ccb550d4324, type: 3}
+  description: 
+  conditionModifier:
+    thirst: 0
+    hunger: 0
+    entertainment: 0
+    aggressiveness: 0
+  triggeringActivities:
+  - trigger:
+      rid: 4756923079345831937
+    activity: {fileID: 11400000, guid: 41123bc3cc3e5d044959108522a19657, type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: 4756923079345831937
+      type: {class: Boredom, ns: Dog, asm: Assembly-CSharp}
+      data:
+        threshold: 1
+        strength: 0.555

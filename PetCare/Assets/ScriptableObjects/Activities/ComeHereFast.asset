@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8be9a0f0abc14904f97202a8bd9ffe60, type: 3}
+  m_Name: ComeHereFast
+  m_EditorClassIdentifier: 
+  id: -3787765395629500750
+  title: Herkommen
+  icon: {fileID: 2800000, guid: 24855f77ffe206348acf2d5e06a284e0, type: 3}
+  description: 
+  points: 0
+  destination: 1
+  speed: 2

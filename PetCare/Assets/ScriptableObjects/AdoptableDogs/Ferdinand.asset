@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4271178c756be2f41b026480be00fa49, type: 3}
+  m_Name: Ferdinand
+  m_EditorClassIdentifier: 
+  givenName: Ferdinand
+  breed: {fileID: 11400000, guid: 5a818310e96ab1c4ba608570821634e3, type: 2}
+  description: Ein sehr aktiver Hund mit einer gewissen Eleganz.
+  habits:
+  - pronouncedness: 100
+    trait: {fileID: 11400000, guid: 9eaf270a753a16d4a80047c7a77e4ba5, type: 2}
+  - pronouncedness: 100
+    trait: {fileID: 11400000, guid: 8e0fa33b80a33ef468d125b9dbe1f24c, type: 2}
+  commands: {fileID: 11400000, guid: 083e109befa37ac4bb894650255eb8de, type: 2}

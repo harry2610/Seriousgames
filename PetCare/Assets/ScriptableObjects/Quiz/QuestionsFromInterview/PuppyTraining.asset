@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e173c114efdc164b8a8962149abc1d4, type: 3}
+  m_Name: PuppyTraining
+  m_EditorClassIdentifier: 
+  question: "Was ist wichtig, wenn man einen Welpen stubenrein erziehen m\xF6chte?"
+  answer1: Der Welpe sollte sofort ins Freie gebracht werden, wenn er Anzeichen zeigt
+  answer2: Der Welpe sollte den ganzen Tag im Freien bleiben
+  answer3: Der Welpe lernt am besten durch Bestrafung
+  answer4: "Es reicht aus, den Welpen einmal t\xE4glich rauszulassen"
+  correctAnswer: 1
+  explanation: 

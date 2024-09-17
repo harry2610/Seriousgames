@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f6b349cc1f723142968a80e73d839a3, type: 3}
+  m_Name: ExampleShopTennis
+  m_EditorClassIdentifier: 
+  Inventory:
+  - Item: {fileID: 11400000, guid: 10b592e7315aac04eac8eabccf143d5e, type: 2}
+    Amount: 1
+    SlotID: 0
+    IsInUse: 0
+  - Item: {fileID: 11400000, guid: 10b592e7315aac04eac8eabccf143d5e, type: 2}
+    Amount: 1
+    SlotID: 1
+    IsInUse: 0
+  - Item: {fileID: 11400000, guid: 10b592e7315aac04eac8eabccf143d5e, type: 2}
+    Amount: 1
+    SlotID: 2
+    IsInUse: 0
+  - Item: {fileID: 11400000, guid: 10b592e7315aac04eac8eabccf143d5e, type: 2}
+    Amount: 1
+    SlotID: 3
+    IsInUse: 0
+  - Item: {fileID: 11400000, guid: 10b592e7315aac04eac8eabccf143d5e, type: 2}
+    Amount: 1
+    SlotID: 4
+    IsInUse: 0
+  - Item: {fileID: 11400000, guid: 10b592e7315aac04eac8eabccf143d5e, type: 2}
+    Amount: 1
+    SlotID: 5
+    IsInUse: 0
+  - Item: {fileID: 11400000, guid: 10b592e7315aac04eac8eabccf143d5e, type: 2}
+    Amount: 1
+    SlotID: 6
+    IsInUse: 0
+  - Item: {fileID: 11400000, guid: 10b592e7315aac04eac8eabccf143d5e, type: 2}
+    Amount: 1
+    SlotID: 7
+    IsInUse: 0
+  - Item: {fileID: 11400000, guid: 10b592e7315aac04eac8eabccf143d5e, type: 2}
+    Amount: 1
+    SlotID: 8
+    IsInUse: 0
+  - Item: {fileID: 11400000, guid: 10b592e7315aac04eac8eabccf143d5e, type: 2}
+    Amount: 1
+    SlotID: 9
+    IsInUse: 0
+  - Item: {fileID: 11400000, guid: 10b592e7315aac04eac8eabccf143d5e, type: 2}
+    Amount: 1
+    SlotID: 10
+    IsInUse: 0
+  - Item: {fileID: 11400000, guid: 10b592e7315aac04eac8eabccf143d5e, type: 2}
+    Amount: 1
+    SlotID: 11
+    IsInUse: 0
+  - Item: {fileID: 11400000, guid: 10b592e7315aac04eac8eabccf143d5e, type: 2}
+    Amount: 1
+    SlotID: 12
+    IsInUse: 0
+  - Item: {fileID: 11400000, guid: 10b592e7315aac04eac8eabccf143d5e, type: 2}
+    Amount: 1
+    SlotID: 13
+    IsInUse: 0
+  - Item: {fileID: 11400000, guid: 10b592e7315aac04eac8eabccf143d5e, type: 2}
+    Amount: 1
+    SlotID: 14
+    IsInUse: 0
+  - Item: {fileID: 11400000, guid: 10b592e7315aac04eac8eabccf143d5e, type: 2}
+    Amount: 1
+    SlotID: 15
+    IsInUse: 0
+  - Item: {fileID: 11400000, guid: 10b592e7315aac04eac8eabccf143d5e, type: 2}
+    Amount: 1
+    SlotID: 16
+    IsInUse: 0
+  - Item: {fileID: 11400000, guid: 10b592e7315aac04eac8eabccf143d5e, type: 2}
+    Amount: 1
+    SlotID: 17
+    IsInUse: 0
+  - Item: {fileID: 11400000, guid: 10b592e7315aac04eac8eabccf143d5e, type: 2}
+    Amount: 1
+    SlotID: 18
+    IsInUse: 0
+  - Item: {fileID: 11400000, guid: 10b592e7315aac04eac8eabccf143d5e, type: 2}
+    Amount: 1
+    SlotID: 19
+    IsInUse: 0
+  - Item: {fileID: 11400000, guid: 10b592e7315aac04eac8eabccf143d5e, type: 2}
+    Amount: 1
+    SlotID: 20
+    IsInUse: 0
+  onInventoryChanged:
+    m_PersistentCalls:
+      m_Calls: []

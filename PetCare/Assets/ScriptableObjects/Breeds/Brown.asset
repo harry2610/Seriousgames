@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ccd9fb1ab5b3cb4da752a5c983c389f, type: 3}
+  m_Name: Brown
+  m_EditorClassIdentifier: 
+  id: 5846117235678485164
+  pattern: {fileID: 0}
+  colorA: {r: 0.35220122, g: 0.22474025, b: 0.08971159, a: 1}
+  colorB: {r: 0.3529412, g: 0.22352941, b: 0.09019608, a: 1}
+  material: {fileID: 2100000, guid: c2bf50bd8048ec7419f18b97fd43a76a, type: 2}

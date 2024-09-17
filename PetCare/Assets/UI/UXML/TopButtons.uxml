@@ -1,0 +1,27 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/general-ui.uss?fileID=7433441132597879392&amp;guid=8153f3913cdbbdd44a754631aad116d6&amp;type=3#general-ui" />
+    <Style src="project://database/Assets/UI/inventory.uss?fileID=7433441132597879392&amp;guid=b77f6144229982a4184ce834de2856eb&amp;type=3#inventory" />
+    <Style src="project://database/Assets/UI/main-menu.uss?fileID=7433441132597879392&amp;guid=30584fda57680f44eb1c733120099237&amp;type=3#main-menu" />
+    <Style src="project://database/Assets/UI/popout.uss?fileID=7433441132597879392&amp;guid=2e6c022f99f704144bffea800829305d&amp;type=3#popout" />
+    <ui:VisualElement name="top" class="top" style="flex-grow: 1;">
+        <ui:VisualElement name="topleft" class="topleft" style="flex-grow: 1;">
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Menu" class="main-button">
+                <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Arts/Icons/Interface/icons8-men%C3%BC-188.png?fileID=2800000&amp;guid=04049e1caa0afc846a3b0f1aae80171c&amp;type=3#icons8-menü-188&quot;);" />
+            </ui:Button>
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Training" class="training" style="border-bottom-width: 0; width: 156px; height: 156px; border-top-width: 0; border-right-width: 0; border-left-width: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Info" class="main-button">
+                <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Arts/Icons/Interface/icons8-info-188(1).png?fileID=2800000&amp;guid=104f01b95aebb22458c185bffe8664a0&amp;type=3#icons8-info-188(1)&quot;);" />
+                <ui:VisualElement name="InfoBlink" class="info-scrim" />
+            </ui:Button>
+        </ui:VisualElement>
+        <ui:VisualElement name="topright" class="topright" style="flex-grow: 1; flex-direction: column; justify-content: space-between;">
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Map" class="main-button">
+                <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Arts/Icons/Interface/icons8-karten-stecknadel-94.png?fileID=2800000&amp;guid=8995f9037d2d0f64aba0cb449433046f&amp;type=3#icons8-karten-stecknadel-94&quot;);" />
+            </ui:Button>
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Walkie" class="main-button" style="background-image: url(&quot;project://database/Assets/Arts/Icons/Buttons/DogWithLeash.jpeg?fileID=2800000&amp;guid=e1fbf8167c47e724399f7bb204415bdf&amp;type=3#DogWithLeash&quot;); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 10px; border-right-width: 10px; border-left-width: 10px; display: none;" />
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="QuizOpenButton" class="main-button">
+                <ui:VisualElement name="QuizQ" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Arts/Icons/Interface/quizicon2.png?fileID=2800000&amp;guid=557cd36e6f3c922409995cf457f97b76&amp;type=3#quizicon2&quot;); -unity-background-scale-mode: scale-to-fit; transition-property: all; transition-timing-function: ease-in-out; transition-duration: 0.5s;" />
+            </ui:Button>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Arts/Stylesheets/HappyPet.uss?fileID=7433441132597879392&amp;guid=5b0c46e710044f846afd647d668d9646&amp;type=3#HappyPet" />
+    <ui:VisualElement class="root-screen" style="flex-grow: 1; -unity-background-scale-mode: scale-and-crop; background-color: rgb(116, 186, 255);">
+        <ui:VisualElement style="height: 32px;" />
+        <ui:RadioButtonGroup label="Radio Button Group" value="-1" class="horizontal">
+            <ui:RadioButton label="Verhalten" value="true" name="BehaviourButton" class="right-connect" />
+            <ui:RadioButton label="Kommandos" name="CommandsButton" class="left-connect right-connect" />
+            <ui:RadioButton label="Bedürfnisse" name="NeedsButton" class="left-connect" style="display: flex;" />
+        </ui:RadioButtonGroup>
+        <ui:VisualElement name="BehaviourTrainingContainer" style="flex-grow: 1; margin-top: 8px; margin-right: 8px; margin-bottom: 8px; margin-left: 8px; display: flex;" />
+        <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" name="CommandsTrainingContainer" vertical-scroller-visibility="Hidden" horizontal-scroller-visibility="Hidden" touch-scroll-type="Elastic" style="display: none; margin-top: 8px; margin-right: 8px; margin-bottom: 8px; margin-left: 8px;" />
+        <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" name="NeedsContainer" vertical-scroller-visibility="Hidden" horizontal-scroller-visibility="Hidden" touch-scroll-type="Elastic" style="display: none; margin-top: 8px; margin-right: 8px; margin-bottom: 8px; margin-left: 8px;" />
+        <ui:Button text="Schließen" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Close" />
+    </ui:VisualElement>
+</ui:UXML>

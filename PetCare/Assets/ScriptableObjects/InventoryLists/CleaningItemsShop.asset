@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f6b349cc1f723142968a80e73d839a3, type: 3}
+  m_Name: CleaningItemsShop
+  m_EditorClassIdentifier: 
+  Inventory:
+  - Item: {fileID: 11400000, guid: 40b0ca406e4216f45a922b4e58950541, type: 2}
+    Amount: 1
+    SlotID: 0
+    IsInUse: 0
+  - Item: {fileID: 11400000, guid: fa6308ff4cc308953a1ab9c28835e483, type: 2}
+    Amount: 1
+    SlotID: 1
+    IsInUse: 0
+  - Item: {fileID: 11400000, guid: f06cb7e57da0ffeb98533bfb56969d8d, type: 2}
+    Amount: 1
+    SlotID: 2
+    IsInUse: 0
+  - Item: {fileID: 11400000, guid: c844623171e829c4ea1d0abd56ea9c41, type: 2}
+    Amount: 1
+    SlotID: 3
+    IsInUse: 0
+  onInventoryChanged:
+    m_PersistentCalls:
+      m_Calls: []

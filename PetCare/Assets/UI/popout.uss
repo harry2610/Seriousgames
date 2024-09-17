@@ -1,0 +1,126 @@
+.popslot {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.popitem {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 150px;
+    width: 150px;
+    -unity-background-scale-mode: scale-to-fit;
+    background-color: rgb(188, 192, 204);
+    background-image: none;
+    overflow: visible;
+}
+
+.popitem:focus {
+    scale: 1.3 1.3;
+    background-color: rgb(223, 142, 29);
+    transition-timing-function: ease-in-out-elastic;
+    transition-duration: 0.4s;
+    transition-property: scale;
+}
+
+.item_used {
+    -unity-background-image-tint-color: rgb(77, 77, 77);
+}
+
+.beachball {
+    background-image: url("project://database/Assets/Arts/Icons/Items/BallIcon.png?fileID=2800000&guid=3fbf996b206548d45b962b4f55670c79&type=3#BallIcon");
+}
+
+.football {
+    background-image: url("project://database/Assets/Arts/Icons/Items/FrisbeeIcon.png?fileID=2800000&guid=8ac98de08a2148642aa9b35ed48794d3&type=3#FrisbeeIcon");
+}
+
+.bandaid {
+    background-image: url("project://database/Assets/Arts/Icons/Interface/icons8-bandage-94.png?fileID=2800000&guid=20d7c87130cb8914d8fd592ee9d050e3&type=3#icons8-bandage-94");
+}
+
+.basketball {
+    background-image: url("project://database/Assets/Arts/Icons/Interface/icons8-basketball-94.png?fileID=2800000&guid=45d7821b282d6f24b8933b348ddc4aa8&type=3#icons8-basketball-94");
+}
+
+.hairdryer {
+    background-image: url("project://database/Assets/Arts/Icons/Interface/icons8-haartrockner-94.png?fileID=2800000&guid=a0a5434eb72cff9419aef3366e2b151b&type=3#icons8-haartrockner-94");
+}
+
+.hamburger {
+    background-image: url("project://database/Assets/Arts/Icons/Interface/icons8-hamburger-94.png?fileID=2800000&guid=73ef544152710fd448543cb24b9b3ab1&type=3#icons8-hamburger-94");
+}
+
+.collar {
+    background-image: url("project://database/Assets/Arts/Icons/Interface/icons8-hundehalsband-94.png?fileID=2800000&guid=b7683f1f50d332c4da9392a8e90840c9&type=3#icons8-hundehalsband-94");
+}
+
+.bone {
+    background-image: url("project://database/Assets/Arts/Icons/Interface/icons8-hundeknochen-94.png?fileID=2800000&guid=a08d58c27c93dfe48897426c4b698bf9&type=3#icons8-hundeknochen-94");
+}
+
+.poopbag {
+    background-image: url("project://database/Assets/Arts/Icons/Interface/icons8-hundekotbeutel-94.png?fileID=2800000&guid=c441fdb55b7343143b9f4fca13410565&type=3#icons8-hundekotbeutel-94");
+}
+
+.brush {
+    background-image: url("project://database/Assets/Arts/Icons/Interface/icons8-kamm-94.png?fileID=2800000&guid=534da7be0d5afbd478f3aaa794a6f4b4&type=3#icons8-kamm-94");
+}
+
+.bowl {
+    background-image: url("project://database/Assets/Arts/Icons/Interface/icons8-leere-hundenapf-94.png?fileID=2800000&guid=5a42127f468b1074d8398d64cc4140a9&type=3#icons8-leere-hundenapf-94");
+}
+
+.syringe {
+    background-image: url("project://database/Assets/Arts/Icons/Interface/icons8-spritze-94.png?fileID=2800000&guid=39b58726e84d90446bd9d7c641b340ad&type=3#icons8-spritze-94");
+}
+
+.toothbrush {
+    background-image: url("project://database/Assets/Arts/Icons/Interface/icons8-tooth-cleaning-kit-94.png?fileID=2800000&guid=7cadd474d256d8b498572ebc4ae2ffb9&type=3#icons8-tooth-cleaning-kit-94");
+}
+
+.empty {
+}
+
+.dragitem {
+    scale: 1.3 1.3;
+    background-color: rgb(223, 142, 29);
+    opacity: 0.9;
+}
+
+.popitem-counter {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    background-color: rgb(223, 225, 231);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    -unity-font-style: bold;
+    font-size: 45px;
+    width: 60px;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    display: flex;
+}

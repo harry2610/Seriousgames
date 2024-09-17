@@ -1,0 +1,28 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="TopButtons" src="project://database/Assets/UI/UXML/TopButtons.uxml?fileID=9197481963319205126&amp;guid=5dc214228123852469fce235f0d3ebf5&amp;type=3#TopButtons" />
+    <ui:Template name="MenuScreen" src="project://database/Assets/UI/UXML/MenuScreen.uxml?fileID=9197481963319205126&amp;guid=78f084ac368625e448645df962587472&amp;type=3#MenuScreen" />
+    <ui:Template name="QuickInfoScreen" src="project://database/Assets/UI/UXML/QuickInfoScreen.uxml?fileID=9197481963319205126&amp;guid=9d716c0cc755cc246bc887b6d162f47e&amp;type=3#QuickInfoScreen" />
+    <Style src="project://database/Assets/UI/general-ui.uss?fileID=7433441132597879392&amp;guid=8153f3913cdbbdd44a754631aad116d6&amp;type=3#general-ui" />
+    <Style src="project://database/Assets/UI/inventory.uss?fileID=7433441132597879392&amp;guid=b77f6144229982a4184ce834de2856eb&amp;type=3#inventory" />
+    <Style src="project://database/Assets/UI/main-menu.uss?fileID=7433441132597879392&amp;guid=30584fda57680f44eb1c733120099237&amp;type=3#main-menu" />
+    <Style src="project://database/Assets/UI/popout.uss?fileID=7433441132597879392&amp;guid=2e6c022f99f704144bffea800829305d&amp;type=3#popout" />
+    <Bitbebop.SafeArea>
+        <ui:VisualElement name="Container-Select" style="flex-grow: 1; height: 100%; position: absolute; width: 100%;">
+            <ui:Button text="Zuhause" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Zuhause" class="map-button" style="left: 5%; top: 19%;">
+                <ui:VisualElement name="mapbuttonstick" style="flex-grow: 1; position: absolute; width: 40px; height: 40px; background-color: rgb(239, 241, 245); rotate: 45deg; top: -13px; left: 30%;" />
+            </ui:Button>
+            <ui:Button text="Shop" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Shop" class="map-button" style="right: 5%; position: absolute; top: 21%;">
+                <ui:VisualElement name="mapbuttonstick" style="flex-grow: 1; position: absolute; width: 40px; height: 40px; background-color: rgb(239, 241, 245); rotate: 45deg; right: 12%; bottom: -13px;" />
+            </ui:Button>
+            <ui:Button text="Tierarzt" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Tierarzt" class="map-button" style="right: 8%; bottom: 15%; position: absolute;">
+                <ui:VisualElement name="mapbuttonstick" style="flex-grow: 1; position: absolute; width: 40px; height: 40px; background-color: rgb(239, 241, 245); rotate: 45deg; top: -13px; right: 20%;" />
+            </ui:Button>
+            <ui:Button text="Park" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Park" class="map-button" style="left: 7%; top: 47%;">
+                <ui:VisualElement name="mapbuttonstick" style="flex-grow: 1; position: absolute; width: 40px; height: 40px; bottom: -13px; background-color: rgb(239, 241, 245); rotate: 45deg; left: 26%;" />
+            </ui:Button>
+        </ui:VisualElement>
+        <ui:Instance template="TopButtons" name="TopButtons" />
+        <ui:Instance template="MenuScreen" name="MenuScreen" style="position: absolute; width: 100%; height: 100%; display: none;" />
+        <ui:Instance template="QuickInfoScreen" name="QuickInfoScreen" style="position: absolute; width: 100%; height: 100%; display: none;" />
+    </Bitbebop.SafeArea>
+</ui:UXML>

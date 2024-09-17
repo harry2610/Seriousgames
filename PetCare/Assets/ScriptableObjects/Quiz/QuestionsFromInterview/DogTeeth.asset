@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e173c114efdc164b8a8962149abc1d4, type: 3}
+  m_Name: DogTeeth
+  m_EditorClassIdentifier: 
+  question: "Was ist eine empfohlene Methode, um die Z\xE4hne eines Hundes sauber
+    zu halten?"
+  answer1: "Regelm\xE4\xDFiges Z\xE4hneputzen mit einer speziellen Hundezahnb\xFCrste"
+  answer2: "Das F\xFCttern von Knochen"
+  answer3: "Nur Trockenfutter f\xFCttern"
+  answer4: "Regelm\xE4\xDFige Besuche beim Tierarzt"
+  correctAnswer: 1
+  explanation: 

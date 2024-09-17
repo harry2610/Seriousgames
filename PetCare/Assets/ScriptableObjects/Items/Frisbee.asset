@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed8bc33afc06fa04cb83066c3092650f, type: 3}
+  m_Name: Frisbee
+  m_EditorClassIdentifier: 
+  id: 40370729611104967
+  type: 3
+  title: Frisbee
+  icon: {fileID: 2800000, guid: 8ac98de08a2148642aa9b35ed48794d3, type: 3}
+  prefab: {fileID: 5942125300803363307, guid: d3b1ba52a11ac8a4cbf17fe6599499b7, type: 3}
+  description: Du kannst diese Frisbee werfen.
+  stackLimit: 1
+  price: 100
+  conditionEffects:
+  - condition: {fileID: 11400000, guid: 6ff091108ad2c554aa0a89b594199c9d, type: 2}
+    modifier: 3
+  - condition: {fileID: 11400000, guid: b1baf8c9ceec5b6439d2234adde1812e, type: 2}
+    modifier: 3
+  - condition: {fileID: 11400000, guid: 6c0ebae11ac685241a10bb7ba2866376, type: 2}
+    modifier: 0.5

@@ -1,0 +1,44 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Statistics/Statistics.uss?fileID=7433441132597879392&amp;guid=fb8adbf71640d934cb510bc6c74cc125&amp;type=3#Statistics" />
+    <Style src="project://database/Assets/Arts/Stylesheets/HappyPet.uss?fileID=7433441132597879392&amp;guid=5b0c46e710044f846afd647d668d9646&amp;type=3#HappyPet" />
+    <ui:VisualElement name="BackgroundContainer" class="background" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UI/Statistics/BonePattern.png?fileID=2800000&amp;guid=0c4c2142a18871f4a85279adfc17b702&amp;type=3#BonePattern&quot;); -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgb(124, 181, 255);">
+        <ui:VisualElement name="Screens" style="position: absolute; width: 100%; height: 100%; top: 0;">
+            <ui:VisualElement name="HomeScreen" class="root-screen" style="flex-basis: auto; width: 100%; height: 100%; position: absolute; top: 0;">
+                <ui:VisualElement name="Logo" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/Arts/Icons/Interface/logo1.png?fileID=2800000&amp;guid=cc2bf8c24b44d8d41aea3ef7ed8a032c&amp;type=3#logo1&quot;); height: 96px; -unity-background-scale-mode: scale-to-fit;" />
+                <ui:VisualElement name="SaveGames" style="flex-grow: 1; flex-direction: column;">
+                    <ui:Label tabindex="-1" text="Spielstände" parse-escape-sequences="true" display-tooltip-when-elided="true" class="header" style="color: rgb(255, 255, 255); font-size: 14px; -unity-text-align: upper-center; -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgb(20, 106, 204); border-top-left-radius: 12px; border-top-right-radius: 12px; border-bottom-right-radius: 12px; border-bottom-left-radius: 12px; padding-top: 4px; padding-right: 4px; padding-bottom: 4px; padding-left: 8px; margin-bottom: 16px;" />
+                    <ui:VisualElement name="SaveGameContainer" style="flex-grow: 1;" />
+                    <ui:Button text="Neues Spiel" name="NewGame" class="primary" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="StartConditionScreen" class="root-screen" style="flex-grow: 0; position: absolute; height: 100%; width: 100%; top: 100%;">
+                <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" touch-scroll-type="Elastic" vertical-scroller-visibility="Hidden" horizontal-scroller-visibility="Hidden">
+                    <ui:Label tabindex="-1" text="Schwierigkeitsgrad" parse-escape-sequences="true" display-tooltip-when-elided="true" class="header" style="-unity-text-outline-color: rgba(255, 255, 255, 0); margin-right: 8px; margin-left: 8px; background-color: rgb(20, 106, 204); color: rgb(255, 255, 255); -unity-text-align: upper-center; margin-top: 32px;" />
+                    <ui:RadioButtonGroup value="-1" name="StartGames" style="-unity-text-align: upper-left; margin-top: 8px;" />
+                    <ui:Toggle label="Beschleunigter Modus" value="false" name="FastMode" style="background-color: rgb(59, 59, 59); margin-top: 8px; margin-right: 8px; margin-bottom: 0; margin-left: 8px; padding-top: 4px; padding-right: 4px; padding-bottom: 4px; padding-left: 4px; border-top-left-radius: 12px; border-top-right-radius: 12px; border-bottom-right-radius: 12px; border-bottom-left-radius: 12px; border-right-width: 4px;" />
+                </ui:ScrollView>
+                <ui:VisualElement style="flex-grow: 1;" />
+                <ui:VisualElement class="button-group" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;">
+                    <ui:Button text="Zurück" parse-escape-sequences="true" display-tooltip-when-elided="true" name="BackToMenu" />
+                    <ui:Button text="Tierheim" name="GoToAnimalShelter" class="primary" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="AnimalShelter" class="root-screen" style="flex-grow: 1; width: 100%; height: 100%; -unity-background-image-tint-color: rgb(255, 0, 0); position: absolute; background-color: rgba(107, 57, 57, 0); top: 200%;">
+                <ui:Label tabindex="-1" text="Sucht ein neues Zuhause" parse-escape-sequences="true" display-tooltip-when-elided="true" class="header" style="color: rgb(255, 255, 255); -unity-text-align: upper-center;" />
+                <ui:VisualElement name="DogInfo" style="flex-grow: 0; margin-top: 8px; margin-right: 8px; margin-bottom: 0; margin-left: 8px; background-color: rgb(59, 59, 59); border-top-left-radius: 16px; border-top-right-radius: 16px; border-bottom-right-radius: 16px; border-bottom-left-radius: 16px;">
+                    <ui:TextField picking-mode="Ignore" label="Name" value="filler text" name="DogName" style="height: auto; color: rgb(255, 255, 255); -unity-background-image-tint-color: rgb(255, 255, 255); margin-top: 4px; margin-right: 4px; margin-bottom: 4px; margin-left: 4px;" />
+                    <ui:Label tabindex="-1" text="Das ist eine längere Beschreibung und müsste in eine neue Zeile" parse-escape-sequences="true" display-tooltip-when-elided="true" name="DogDescription" style="color: rgb(255, 255, 255); margin-top: 0; margin-right: 8px; margin-bottom: 4px; margin-left: 8px; flex-wrap: nowrap; white-space: normal; font-size: 10px;" />
+                </ui:VisualElement>
+                <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" name="CharacterTraits" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" style="margin-top: 8px; margin-right: 8px; margin-bottom: 8px; margin-left: 8px; height: 50%;" />
+                <ui:VisualElement name="Spacer" style="flex-grow: 1;" />
+                <ui:VisualElement name="DogOverlay" style="flex-grow: 1; width: 100%; height: 45%; bottom: 0; position: absolute; -unity-background-scale-mode: scale-and-crop; left: 0;" />
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="PrevDog" class="icon arrow-left" style="position: absolute; bottom: 64px; left: 8px; width: 40px; height: 40px;" />
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="NextDog" class="icon arrow-right" style="right: 8px; bottom: 64px; position: absolute; border-left-color: rgba(0, 106, 166, 0); border-right-color: rgba(0, 106, 166, 0); border-top-color: rgba(0, 106, 166, 0); border-bottom-color: rgba(0, 106, 166, 0); height: 40px; width: 40px;" />
+                <ui:VisualElement class="button-group">
+                    <ui:Button text="Zurück" name="BackToStartConditions" />
+                    <ui:Button text="Adoptieren" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Adopt" class="primary" style="white-space: nowrap;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

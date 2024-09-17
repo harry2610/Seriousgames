@@ -1,0 +1,104 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="LeaderboardItem" src="project://database/Assets/UI/UXML/LeaderboardItem.uxml?fileID=9197481963319205126&amp;guid=1d1c4ad316b39bb4e8b9a5d9c63ae926&amp;type=3#LeaderboardItem" />
+    <Style src="project://database/Assets/UI/general-ui.uss?fileID=7433441132597879392&amp;guid=8153f3913cdbbdd44a754631aad116d6&amp;type=3#general-ui" />
+    <Style src="project://database/Assets/UI/inventory.uss?fileID=7433441132597879392&amp;guid=b77f6144229982a4184ce834de2856eb&amp;type=3#inventory" />
+    <Style src="project://database/Assets/UI/main-menu.uss?fileID=7433441132597879392&amp;guid=30584fda57680f44eb1c733120099237&amp;type=3#main-menu" />
+    <Style src="project://database/Assets/UI/popout.uss?fileID=7433441132597879392&amp;guid=2e6c022f99f704144bffea800829305d&amp;type=3#popout" />
+    <ui:VisualElement name="Container_Menu" usage-hints="GroupTransform" class="panel" style="flex-grow: 1; position: absolute; width: 100%; height: 100%; align-items: center; justify-content: center; display: flex;">
+        <ui:VisualElement name="Scrim_Menu" class="scrim" style="position: absolute; width: 100%; height: 100%;" />
+        <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Continue2" style="position: absolute; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; opacity: 0; width: 100%; height: 100%;" />
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="LeaderboardButton" class="main-button leaderboard-button" style="top: 40px; right: 40px; width: 178px; height: 178px;">
+            <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Arts/Icons/Interface/icons8-star-94.png?fileID=2800000&amp;guid=395686feec7fea94781cb254493cb9c0&amp;type=3#icons8-star-94&quot;);" />
+        </ui:Button>
+        <ui:VisualElement name="SettingsContainer" usage-hints="DynamicTransform" class="settings">
+            <ui:VisualElement name="SettingsTop" style="flex-grow: 1; max-height: 12%; min-height: 12%; justify-content: center; align-items: center; flex-direction: row; border-left-color: rgb(220, 224, 232); border-right-color: rgb(220, 224, 232); border-top-color: rgb(220, 224, 232); border-bottom-color: rgb(220, 224, 232); border-bottom-width: 20px;">
+                <ui:Label tabindex="-1" text="Einstellungen" parse-escape-sequences="true" display-tooltip-when-elided="true" style="font-size: 75px; -unity-font-style: bold; -unity-text-align: middle-center; color: rgb(76, 79, 105); letter-spacing: 2px;" />
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="SettingsCloseButton" class="main-button" style="position: absolute; left: 3%; width: 140px; height: 140px; top: 16%; background-color: rgb(230, 233, 239);">
+                    <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Arts/Icons/Interface/icons8-l%C3%B6schen-188.png?fileID=2800000&amp;guid=516541b5922cb6c48bd8033a9c3bafff&amp;type=3#icons8-löschen-188&quot;);" />
+                </ui:Button>
+            </ui:VisualElement>
+            <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" touch-scroll-type="Elastic">
+                <ui:VisualElement name="SettingItemMusic" class="settingItem">
+                    <ui:VisualElement name="SettingItemLeft" class="settingItemLeft">
+                        <ui:Label tabindex="-1" text="Musik" parse-escape-sequences="true" display-tooltip-when-elided="true" class="settingItemLabel" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="SettingItemMiddle" style="flex-grow: 1; max-width: 50%; min-width: 50%; justify-content: center;">
+                        <ui:Slider direction="Horizontal" inverted="false" name="MusicSlider" high-value="1" class="settingItemSlider" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="SettingItemRight" style="flex-grow: 1; max-width: 20%; min-width: 20%; align-items: center; justify-content: center;">
+                        <ui:Toggle name="MusicToggle" value="true" class="settingItemToggle" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="SettingItemSound" class="settingItem">
+                    <ui:VisualElement name="SettingItemLeft" class="settingItemLeft">
+                        <ui:Label tabindex="-1" text="Sound" parse-escape-sequences="true" display-tooltip-when-elided="true" class="settingItemLabel" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="SettingItemMiddle" style="flex-grow: 1; max-width: 50%; min-width: 50%; justify-content: center;">
+                        <ui:Slider high-value="1" direction="Horizontal" inverted="false" name="SoundSlider" class="settingItemSlider" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="SettingItemRight" style="flex-grow: 1; max-width: 20%; min-width: 20%; align-items: center; justify-content: center;">
+                        <ui:Toggle name="SoundToggle" value="true" class="settingItemToggle" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="SettingItemVibration" class="settingItem">
+                    <ui:VisualElement name="SettingItemLeft" class="settingItemLeft" style="max-width: 80%; min-width: 80%;">
+                        <ui:Label tabindex="-1" text="Vibration" parse-escape-sequences="true" display-tooltip-when-elided="true" class="settingItemLabel" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="SettingItemRight" style="flex-grow: 1; max-width: 20%; min-width: 20%; align-items: center; justify-content: center;">
+                        <ui:Toggle name="VibrationToggle" value="true" class="settingItemToggle" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="SettingItemPush" class="settingItem">
+                    <ui:VisualElement name="SettingItemLeft" class="settingItemLeft" style="max-width: 80%; min-width: 80%;">
+                        <ui:Label tabindex="-1" text="Benachrichtigungen" parse-escape-sequences="true" display-tooltip-when-elided="true" class="settingItemLabel" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="SettingItemRight" style="flex-grow: 1; max-width: 20%; min-width: 20%; align-items: center; justify-content: center;">
+                        <ui:Toggle name="PushToggle" value="true" class="settingItemToggle" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="SettingItemTrainer" class="settingItem">
+                    <ui:VisualElement name="SettingItemLeft" class="settingItemLeft" style="max-width: 80%; min-width: 80%;">
+                        <ui:Label tabindex="-1" text="Weiblicher Trainer" parse-escape-sequences="true" display-tooltip-when-elided="true" class="settingItemLabel" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="SettingItemRight" style="flex-grow: 1; max-width: 20%; min-width: 20%; align-items: center; justify-content: center;">
+                        <ui:Toggle name="TrainerToggle" value="true" class="settingItemToggle" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="SettingItemTips" class="settingItem">
+                    <ui:VisualElement name="SettingItemLeft" class="settingItemLeft" style="max-width: 80%; min-width: 80%;">
+                        <ui:Label tabindex="-1" text="Zeige hilfreiche Tipps" parse-escape-sequences="true" display-tooltip-when-elided="true" class="settingItemLabel" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="SettingItemRight" style="flex-grow: 1; max-width: 20%; min-width: 20%; align-items: center; justify-content: center;">
+                        <ui:Toggle name="TipsToggle" value="true" class="settingItemToggle" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:ScrollView>
+        </ui:VisualElement>
+        <ui:VisualElement name="LeaderboardContainer" usage-hints="DynamicTransform" class="settings" style="display: flex;">
+            <ui:VisualElement name="LeaderboardTop" style="flex-grow: 1; max-height: 12%; min-height: 12%; justify-content: center; align-items: center; flex-direction: row; border-left-color: rgb(220, 224, 232); border-right-color: rgb(220, 224, 232); border-top-color: rgb(220, 224, 232); border-bottom-color: rgb(220, 224, 232); border-bottom-width: 20px;">
+                <ui:Label tabindex="-1" text="Rangliste" parse-escape-sequences="true" display-tooltip-when-elided="true" style="font-size: 75px; -unity-font-style: bold; -unity-text-align: middle-center; color: rgb(76, 79, 105);" />
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="LeaderboardCloseButton" class="main-button" style="position: absolute; left: 3%; width: 140px; height: 140px; top: 16%; background-color: rgb(230, 233, 239);">
+                    <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Arts/Icons/Interface/icons8-l%C3%B6schen-188.png?fileID=2800000&amp;guid=516541b5922cb6c48bd8033a9c3bafff&amp;type=3#icons8-löschen-188&quot;);" />
+                </ui:Button>
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="LeaderboardUpdateButton" class="main-button" style="position: absolute; width: 140px; height: 140px; top: 16%; right: 3%; background-color: rgb(230, 233, 239);">
+                    <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Arts/Icons/Interface/icons8-speichern-94.png?fileID=2800000&amp;guid=120778496501d5c4090daaf71e006f74&amp;type=3#icons8-speichern-94&quot;);" />
+                </ui:Button>
+            </ui:VisualElement>
+            <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" touch-scroll-type="Clamped" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" name="LeadeboardList">
+                <ui:Instance template="LeaderboardItem" name="LeaderboardItem" />
+            </ui:ScrollView>
+            <ui:VisualElement name="UserNameInputContainer" style="flex-grow: 1; position: absolute; align-self: center; top: 10%; width: 85%; height: 12%; background-color: rgb(204, 208, 218); border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; border-left-color: rgb(156, 160, 176); border-right-color: rgb(156, 160, 176); border-top-color: rgb(156, 160, 176); border-bottom-color: rgb(156, 160, 176); border-bottom-width: 10px; align-items: center; justify-content: space-around; flex-direction: row;">
+                <ui:TextField picking-mode="Ignore" value="Dein Name" name="UserNameField" max-length="10" style="width: 60%; height: 50%;" />
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="UserNameInputConfirm" class="main-button">
+                    <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Arts/Icons/Interface/icons8-h%C3%A4kchen-375.png?fileID=2800000&amp;guid=41c0e3e2b8095094288286593676025a&amp;type=3#icons8-häkchen-375&quot;);" />
+                </ui:Button>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Container" usage-hints="DynamicTransform" class="menu" style="flex-grow: 1;">
+            <ui:VisualElement name="Logo" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Arts/Icons/Interface/logo1.png?fileID=2800000&amp;guid=cc2bf8c24b44d8d41aea3ef7ed8a032c&amp;type=3#logo1&quot;); -unity-background-scale-mode: scale-to-fit; min-height: 500px;" />
+            <ui:Button text="Fortsetzen" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Continue" class="unity-button menu_button" />
+            <ui:Button text="Einstellungen" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Settings" class="menu_button" />
+            <ui:Button text="Hauptmenü" parse-escape-sequences="true" display-tooltip-when-elided="true" name="HomeMenu" class="menu_button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

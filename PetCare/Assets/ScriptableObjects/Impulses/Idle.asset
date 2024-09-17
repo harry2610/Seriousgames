@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1f6cdb94fcb2cd489f36fc14bcee890, type: 3}
+  m_Name: Idle
+  m_EditorClassIdentifier: 
+  activityOptions:
+  - activity: {fileID: 11400000, guid: 75fe3193c3c2c934486d69370f65ab64, type: 2}
+    basePriority: 10
+    traitModifier:
+    - trait: {fileID: 11400000, guid: 8e0fa33b80a33ef468d125b9dbe1f24c, type: 2}
+      priorityModifier: 30
+    conditionModifier:
+    - condition: {fileID: 11400000, guid: 409582fabf85c1541bc608a8d79442fc, type: 2}
+      rangeID: 0
+      priorityModifier: 30
+    - condition: {fileID: 11400000, guid: 409582fabf85c1541bc608a8d79442fc, type: 2}
+      rangeID: 2
+      priorityModifier: -30
+  - activity: {fileID: 11400000, guid: eeebb6cf0ed4f6b428c38ec0245c3040, type: 2}
+    basePriority: 30
+    traitModifier:
+    - trait: {fileID: 11400000, guid: 9eaf270a753a16d4a80047c7a77e4ba5, type: 2}
+      priorityModifier: 20
+    conditionModifier: []
+  - activity: {fileID: 11400000, guid: 41123bc3cc3e5d044959108522a19657, type: 2}
+    basePriority: 10
+    traitModifier:
+    - trait: {fileID: 11400000, guid: ad099bfb1fd69ee41bad86d5f3917f60, type: 2}
+      priorityModifier: 10
+    conditionModifier:
+    - condition: {fileID: 11400000, guid: 6c0ebae11ac685241a10bb7ba2866376, type: 2}
+      rangeID: 0
+      priorityModifier: -20
+    - condition: {fileID: 11400000, guid: 6c0ebae11ac685241a10bb7ba2866376, type: 2}
+      rangeID: 1
+      priorityModifier: -10
+    - condition: {fileID: 11400000, guid: 6c0ebae11ac685241a10bb7ba2866376, type: 2}
+      rangeID: 2
+      priorityModifier: 5
+    - condition: {fileID: 11400000, guid: 6c0ebae11ac685241a10bb7ba2866376, type: 2}
+      rangeID: 3
+      priorityModifier: 10
+    - condition: {fileID: 11400000, guid: 6c0ebae11ac685241a10bb7ba2866376, type: 2}
+      rangeID: 4
+      priorityModifier: 20
+  - activity: {fileID: 11400000, guid: 3c6249f974e2a9d49befab773d7570dc, type: 2}
+    basePriority: 0
+    traitModifier:
+    - trait: {fileID: 11400000, guid: 9b3a1642143270e48bcf2d4456fe4527, type: 2}
+      priorityModifier: 30
+    conditionModifier:
+    - condition: {fileID: 11400000, guid: cb6d4b80c4bdbda418457385072c1f17, type: 2}
+      rangeID: 0
+      priorityModifier: 30
+    - condition: {fileID: 11400000, guid: cb6d4b80c4bdbda418457385072c1f17, type: 2}
+      rangeID: 2
+      priorityModifier: -30
+  - activity: {fileID: 11400000, guid: 9342527bae6981e42a28c6f74ce2f81e, type: 2}
+    basePriority: 0
+    traitModifier: []
+    conditionModifier:
+    - condition: {fileID: 11400000, guid: afbd715e82181004d87b9cf19ce010e4, type: 2}
+      rangeID: 0
+      priorityModifier: 30

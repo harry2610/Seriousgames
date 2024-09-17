@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c59db9a005c4a144aa586dfaf63f0a3, type: 3}
+  m_Name: Thirst
+  m_EditorClassIdentifier: 
+  id: 6043108835208538160
+  title: Durst
+  icon: {fileID: 2800000, guid: 47605adbc358a813b9ff3a7c3073a0df, type: 3}
+  description: Wie durstig dein Hund ist
+  unit: l
+  minimumValue: 0
+  maximumValue: 12
+  initialValue: 9
+  changePerDay: -3
+  isTrainable: 0
+  conditionRanges: []

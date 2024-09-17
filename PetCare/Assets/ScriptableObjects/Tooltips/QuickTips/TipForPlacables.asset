@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e368a27ee98858a47b692e0bfe834834, type: 3}
+  m_Name: TipForPlacables
+  m_EditorClassIdentifier: 
+  heading: "Platzier-Item gedr\xFCckt!"
+  text: "Ziehe das Item um es auf den Boden zu platzieren oder dr\xFCcke das Item
+    nochmal um es zur\xFCckzuholen."
+  id: -7667470780963831912
+  maxShowTimes: 1

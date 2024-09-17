@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b01d4ded52dfa94694ab467d83399db, type: 3}
+  m_Name: Walkie
+  m_EditorClassIdentifier: 
+  id: -6718452965453957697
+  title: Gassi gehen
+  icon: {fileID: 0}
+  description: 
+  points: 10
+  impulseOnEnd: {fileID: 11400000, guid: 3d7e4c864994cd84dae85ec733371ca1, type: 2}
+  isAbortable: 1
+  poorEducation: {fileID: 0}
+  goodEducation: {fileID: 0}
+  rewardInfluence: 0
+  walkieSpeed: 1
+  comeSpeed: 1.5
+  wayPoints:
+  - {fileID: 11400000, guid: 721ab378bb24dd64887a112a2d39d0c4, type: 2}
+  - {fileID: 11400000, guid: fc91538aa083d0e4ca6726784835cd3f, type: 2}
+  - {fileID: 11400000, guid: 559e70c2b4c097a4e8598d0caa9b837e, type: 2}
+  - {fileID: 11400000, guid: 30e40a29007b659479fa1b4d48ec2a7e, type: 2}
+  - {fileID: 11400000, guid: af62a7d81558cc5468f76ec1a1e81bea, type: 2}
+  poopingCondition: {fileID: 11400000, guid: 29ee42319302aac468f1f6025f8561c6, type: 2}
+  peeingCondition: {fileID: 11400000, guid: 6f9833e841150b448a97635d6811b21f, type: 2}

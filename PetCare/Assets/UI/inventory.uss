@@ -1,0 +1,47 @@
+.tab {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 35px;
+    padding-right: 35px;
+    padding-bottom: 25px;
+    padding-left: 35px;
+}
+
+.currentlySelectedTab {
+    border-bottom-width: 10px;
+    border-left-color: rgb(156, 160, 176);
+    border-right-color: rgb(156, 160, 176);
+    border-top-color: rgb(156, 160, 176);
+    border-bottom-color: rgb(156, 160, 176);
+    margin-bottom: 0;
+    padding-bottom: 15px;
+}
+
+.unselectedContent {
+    display: none;
+}
+
+.itemPlaceholder {
+    width: 156px;
+    max-height: 156px;
+    background-color: rgb(188, 192, 204);
+    margin-top: 60px;
+    margin-right: 0;
+    margin-bottom: 60px;
+    margin-left: 0;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.content {
+    flex-direction: row;
+}
+
+.col {
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/main-menu.uss?fileID=7433441132597879392&amp;guid=30584fda57680f44eb1c733120099237&amp;type=3#main-menu" />
+    <ui:VisualElement name="LeaderboardItem" class="settingItem">
+        <ui:VisualElement name="LeaderboardItemLeft" style="justify-content: center; max-width: 40%; min-width: 40%; align-items: center; border-right-width: 20px; border-left-color: rgb(220, 224, 232); border-right-color: rgb(220, 224, 232); border-top-color: rgb(220, 224, 232); border-bottom-color: rgb(220, 224, 232);">
+            <ui:Label tabindex="-1" text="Vince" parse-escape-sequences="true" display-tooltip-when-elided="true" name="LeaderboardItemPlayer" class="leaderboardItemLabel" />
+        </ui:VisualElement>
+        <ui:VisualElement name="LeaderboardItemMiddle" style="flex-grow: 1; max-width: 30%; min-width: 30%; justify-content: center; align-items: center;">
+            <ui:Label tabindex="-1" text="Musik" parse-escape-sequences="true" display-tooltip-when-elided="true" name="LeaderboardItemDog" class="leaderboardItemLabel" />
+        </ui:VisualElement>
+        <ui:VisualElement name="LeaderboardItemRight" style="flex-grow: 1; max-width: 30%; min-width: 30%; align-items: center; justify-content: center;">
+            <ui:VisualElement name="VisualElement" style="flex-grow: 1; position: relative; width: 100%; height: 30%; max-height: 45%; background-color: rgb(220, 224, 232); border-top-left-radius: 30px; border-top-right-radius: 30px; border-bottom-right-radius: 30px; border-bottom-left-radius: 30px; flex-direction: row; justify-content: flex-end;">
+                <ui:Label tabindex="-1" text="0000" parse-escape-sequences="true" display-tooltip-when-elided="true" name="LeaderboardItemCoins" style="font-size: 60px; -unity-font-style: bold; padding-right: 10px; -unity-text-align: middle-center; color: rgb(76, 79, 105);" />
+                <ui:VisualElement style="flex-grow: 1; max-width: 30%; background-image: url(&quot;project://database/Assets/Arts/Icons/Interface/icons8-star-94.png?fileID=2800000&amp;guid=395686feec7fea94781cb254493cb9c0&amp;type=3#icons8-star-94&quot;); -unity-background-scale-mode: scale-to-fit; scale: 1.4 1.4;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

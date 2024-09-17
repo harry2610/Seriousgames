@@ -1,0 +1,261 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="TopButtons" src="project://database/Assets/UI/UXML/TopButtons.uxml?fileID=9197481963319205126&amp;guid=5dc214228123852469fce235f0d3ebf5&amp;type=3#TopButtons" />
+    <ui:Template name="InfoScreen" src="project://database/Assets/UI/UXML/InfoScreen.uxml?fileID=9197481963319205126&amp;guid=344040c7aef87ce488bea0287c5e41ed&amp;type=3#InfoScreen" />
+    <ui:Template name="QuickInfoScreen" src="project://database/Assets/UI/UXML/QuickInfoScreen.uxml?fileID=9197481963319205126&amp;guid=9d716c0cc755cc246bc887b6d162f47e&amp;type=3#QuickInfoScreen" />
+    <ui:Template name="MenuScreen" src="project://database/Assets/UI/UXML/MenuScreen.uxml?fileID=9197481963319205126&amp;guid=78f084ac368625e448645df962587472&amp;type=3#MenuScreen" />
+    <ui:Template name="CoinPopoutContainer" src="project://database/Assets/UI/UXML/CoinPopoutContainer.uxml?fileID=9197481963319205126&amp;guid=5d473d1458c476141bc0c52eb430bfcf&amp;type=3#CoinPopoutContainer" />
+    <ui:Template name="ScorePopoutContainer" src="project://database/Assets/UI/UXML/ScorePopoutContainer.uxml?fileID=9197481963319205126&amp;guid=26772543aeb525a44a6ab6685dc362f1&amp;type=3#ScorePopoutContainer" />
+    <Style src="project://database/Assets/UI/general-ui.uss?fileID=7433441132597879392&amp;guid=8153f3913cdbbdd44a754631aad116d6&amp;type=3#general-ui" />
+    <Style src="project://database/Assets/UI/inventory.uss?fileID=7433441132597879392&amp;guid=b77f6144229982a4184ce834de2856eb&amp;type=3#inventory" />
+    <Style src="project://database/Assets/UI/main-menu.uss?fileID=7433441132597879392&amp;guid=30584fda57680f44eb1c733120099237&amp;type=3#main-menu" />
+    <Style src="project://database/Assets/UI/popout.uss?fileID=7433441132597879392&amp;guid=2e6c022f99f704144bffea800829305d&amp;type=3#popout" />
+    <Bitbebop.SafeArea usage-hints="GroupTransform">
+        <ui:VisualElement name="Panel" usage-hints="GroupTransform" class="panel" style="flex-grow: 1; display: flex;">
+            <ui:Instance template="TopButtons" name="TopButtons" style="height: 550px;" />
+            <ui:VisualElement name="bottom" class="bottom" style="flex-grow: 1; padding-top: 40px; padding-right: 40px; padding-bottom: 40px; padding-left: 40px;">
+                <ui:VisualElement name="bottombar" style="flex-grow: 1; flex-direction: row; max-height: 190px; align-items: flex-end;">
+                    <ui:VisualElement name="items" style="flex-grow: 1; width: 156px; height: 100%; max-height: none; background-color: rgb(239, 241, 245); border-top-left-radius: 70px; border-top-right-radius: 70px; border-bottom-right-radius: 70px; border-bottom-left-radius: 70px; margin-right: 40px; flex-direction: column; justify-content: flex-end; align-items: stretch; border-left-color: rgb(204, 208, 218); border-right-color: rgb(204, 208, 218); border-top-color: rgb(204, 208, 218); border-bottom-color: rgb(204, 208, 218); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;">
+                        <ui:VisualElement style="flex-grow: 1; flex-direction: row; height: 156px; align-items: flex-end; justify-content: space-around;">
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="ritem0" class="item main-button">
+                                <ui:Label tabindex="-1" text="8" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ItemCounter0" class="item-counter" />
+                            </ui:Button>
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="ritem1" class="item main-button">
+                                <ui:Label tabindex="-1" text="64" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ItemCounter1" class="item-counter" />
+                            </ui:Button>
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="ritem2" class="item main-button">
+                                <ui:Label tabindex="-1" text="64" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ItemCounter2" class="item-counter" />
+                            </ui:Button>
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="ritem3" class="item main-button">
+                                <ui:Label tabindex="-1" text="64" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ItemCounter3" class="item-counter" />
+                            </ui:Button>
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="ritem4" class="item main-button">
+                                <ui:Label tabindex="-1" text="64" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ItemCounter4" class="item-counter" />
+                            </ui:Button>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="arrowbox" class="arrowbox" style="position: absolute; top: -50px; max-height: none; height: 90px; align-self: center; transform-origin: bottom;">
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="arrow_open" class="arrow" style="font-size: 25px; -unity-font-style: bold; -unity-text-align: lower-center; justify-content: flex-end; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;">
+                                <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Arts/Icons/Interface/icons8-up-94.png?fileID=2800000&amp;guid=13b1c129106d6bb43b3f6b3095f8fc58&amp;type=3#icons8-up-94&quot;); -unity-background-scale-mode: scale-to-fit; -unity-background-image-tint-color: rgb(255, 255, 255); height: 60px; max-height: 60px; bottom: -12px;" />
+                            </ui:Button>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="speak" class="main-button">
+                        <ui:VisualElement name="SpeakIcon" class="notspeaking" style="flex-grow: 1;" />
+                    </ui:Button>
+                </ui:VisualElement>
+                <ui:VisualElement name="speechtestContainer" picking-mode="Ignore" style="flex-grow: 1; position: relative; width: 100%; height: 185px; max-height: 150px; min-height: 150px;">
+                    <ui:VisualElement name="speachtestCorner" style="flex-grow: 1; position: absolute; width: 40px; height: 40px; background-color: rgb(239, 241, 245); rotate: 45deg; right: 60px; bottom: 10px;" />
+                    <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="speechtest" text="command" style="position: absolute; font-size: 60px; color: rgb(76, 79, 105); -unity-font-style: bold; -unity-text-align: middle-left; right: 0; background-color: rgb(239, 241, 245); padding-top: 23px; padding-right: 30px; padding-bottom: 23px; padding-left: 30px; border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; border-left-color: rgb(219, 222, 236); border-right-color: rgb(219, 222, 236); border-top-color: rgb(219, 222, 236); border-bottom-color: rgb(219, 222, 236); border-top-width: 6px; border-right-width: 6px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="ItemUsePanel" class="panel" style="flex-grow: 1; display: none; position: absolute; width: 100%; height: 100%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; justify-content: flex-start;">
+            <ui:VisualElement name="BackPanel" style="flex-grow: 1; height: auto; padding-top: 40px; padding-right: 40px; padding-bottom: 40px; padding-left: 40px;">
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="ItemBackButton" class="main-button" style="position: absolute; top: auto; left: auto;">
+                    <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Arts/Icons/Interface/icons8-l%C3%B6schen-188.png?fileID=2800000&amp;guid=516541b5922cb6c48bd8033a9c3bafff&amp;type=3#icons8-löschen-188&quot;);" />
+                </ui:Button>
+            </ui:VisualElement>
+            <ui:VisualElement name="CameraControlPanel" style="flex-grow: 1; flex-direction: row;">
+                <ui:VisualElement name="ControlLeftPanel" style="flex-grow: 1; flex-direction: column; padding-top: 40px; padding-right: 40px; padding-bottom: 40px; padding-left: 40px;">
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="CameraLeftButton" class="main-button" style="border-bottom-width: 0; background-image: url(&quot;project://database/Assets/Arts/Icons/Buttons/ArrowLeft.png?fileID=2800000&amp;guid=d0505737fe73d684aaaabfb818132901&amp;type=3#ArrowLeft&quot;); width: 156px; top: auto; background-color: rgba(0, 0, 0, 0);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="ControlRightPanel" style="flex-grow: 1; padding-top: 40px; padding-right: 40px; padding-bottom: 40px; padding-left: 40px; align-self: auto; align-items: flex-end;">
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="CameraRightButton" class="main-button" style="border-bottom-width: 0; background-image: url(&quot;project://database/Assets/Arts/Icons/Buttons/ArrowRight.png?fileID=2800000&amp;guid=1e6ae441bb1f6fd4dabf2dd76aa7d9fa&amp;type=3#ArrowRight&quot;); width: 156px; top: auto; background-color: rgba(0, 0, 0, 0); right: auto; left: auto;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Container_Bottom" class="panel" style="flex-grow: 1; position: absolute; width: 100%; height: 100%; -unity-font-definition: url(&quot;project://database/Assets/Arts/Fonts/Ubuntu/UbuntuNerdFont-Regular%20SDF.asset?fileID=11400000&amp;guid=f1fcbc5b0433db941a0991bd7afe3702&amp;type=2#UbuntuNerdFont-Regular SDF&quot;); -unity-font: url(&quot;project://database/Assets/Arts/Fonts/Ubuntu/UbuntuNerdFont-Regular.ttf?fileID=12800000&amp;guid=0475b4bda9ba13c41a6d1711232eb8db&amp;type=3#UbuntuNerdFont-Regular&quot;); opacity: 1; display: flex;">
+            <ui:VisualElement name="Scrim" class="scrim" />
+            <ui:VisualElement name="Item_Info_Box" style="flex-grow: 1; position: absolute; width: 75%; height: 20%; align-self: center; top: 20%; background-color: rgb(239, 241, 245); border-top-left-radius: 40px; border-top-right-radius: 40px; border-bottom-right-radius: 40px; border-bottom-left-radius: 40px; transition-duration: 0.25s; flex-direction: row; justify-content: space-around; align-items: stretch;">
+                <ui:VisualElement style="flex-grow: 1; border-right-width: 5px; border-left-color: rgb(156, 160, 176); border-right-color: rgb(156, 160, 176); border-top-color: rgb(156, 160, 176); border-bottom-color: rgb(156, 160, 176); margin-top: 0; margin-right: 10px; margin-bottom: 0; margin-left: 0; max-width: 35%;">
+                    <ui:VisualElement name="Item_Icon_Info" style="flex-grow: 1; height: 40%; -unity-background-scale-mode: scale-to-fit;" />
+                    <ui:VisualElement style="flex-grow: 1; align-items: center; justify-content: center;">
+                        <ui:Label tabindex="-1" text="Name" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Item_Name_Info" style="font-size: 55px; -unity-text-align: upper-center; white-space: normal; text-overflow: ellipsis; -unity-font-style: bold; color: rgb(76, 79, 105);" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="VisualElement" style="flex-grow: 1; justify-content: space-around; width: 30%;">
+                    <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Item_Info_Stat0" class="Item_Info_Stat" />
+                    <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Item_Info_Stat1" class="Item_Info_Stat" />
+                    <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Item_Info_Stat2" class="Item_Info_Stat" />
+                    <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Item_Info_Stat3" class="Item_Info_Stat" />
+                    <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Item_Info_Stat4" class="Item_Info_Stat" />
+                    <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Item_Info_Stat5" class="Item_Info_Stat" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="inv_popout" class="inv_popout">
+                <ui:VisualElement name="close_popout" style="flex-grow: 1; max-height: 5%; flex-direction: row; transform-origin: bottom; scale: 1 2;">
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="arrow_close" class="arrow" style="font-size: 30px; height: 100%; position: relative; bottom: 0; justify-content: flex-end; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;">
+                        <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Arts/Icons/Interface/icons8-down-94.png?fileID=2800000&amp;guid=ef5cdb83617ba4d4ea4ce211eb6de864&amp;type=3#icons8-down-94&quot;); -unity-background-scale-mode: scale-to-fit; height: 50px; max-height: 60px; scale: 1 0.5; transform-origin: bottom;" />
+                    </ui:Button>
+                </ui:VisualElement>
+                <ui:VisualElement name="popout_top" style="flex-grow: 1; flex-direction: row; max-height: 10%; align-items: center; justify-content: space-between; margin-left: 35px;">
+                    <ui:VisualElement style="flex-grow: 1; height: 100%; justify-content: center; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;">
+                        <ui:Label tabindex="-1" text="Taschengeld in:" parse-escape-sequences="true" display-tooltip-when-elided="true" style="font-size: 55%; -unity-font-style: bold; color: rgb(76, 79, 105); -unity-text-align: upper-center; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                        <ui:Label tabindex="-1" text="30 Minuten" parse-escape-sequences="true" display-tooltip-when-elided="true" name="timeForCoins" style="font-size: 50%; -unity-font-style: bold; color: rgb(76, 79, 105); -unity-text-align: upper-center; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 7px; padding-right: 7px; padding-bottom: 7px; padding-left: 7px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="popout_middle" style="flex-grow: 1; background-color: rgb(188, 192, 204); border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; border-bottom-left-radius: 50px; align-items: center; justify-content: flex-end; width: 40%; max-width: 50%; height: 80%; color: rgb(76, 79, 105); flex-direction: row; margin-right: 30px;">
+                        <ui:Label tabindex="-1" text="999" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CoinAmountPopout" style="font-size: 80px; -unity-font-style: bold; -unity-text-align: upper-center; white-space: nowrap; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                        <ui:VisualElement name="Coin" style="flex-grow: 1; width: 140px; height: 100%; background-image: url(&quot;project://database/Assets/Arts/Icons/Interface/dogcoin.png?fileID=2800000&amp;guid=89bfab0f3d6ec8c419e295dd56ed671c&amp;type=3#dogcoin&quot;); -unity-background-scale-mode: scale-to-fit; align-self: center; max-width: 140px; right: -2%; scale: 1.5 1.5;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="slots" style="flex-grow: 1;">
+                    <ui:VisualElement name="row3" style="flex-grow: 1; flex-direction: row;">
+                        <ui:VisualElement name="ItemPlaceholder" class="popslot">
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="item15" class="popitem" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="ItemPlaceholder" class="popslot" style="flex-grow: 1;">
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="item16" class="popitem" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="ItemPlaceholder" class="popslot" style="flex-grow: 1;">
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="item17" class="popitem" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="ItemPlaceholder" class="popslot" style="flex-grow: 1;">
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="item18" class="popitem" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="ItemPlaceholder" class="popslot" style="flex-grow: 1;">
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="item19" class="popitem" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="row2" style="flex-grow: 1; flex-direction: row;">
+                        <ui:VisualElement name="ItemPlaceholder" class="popslot">
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="item10" class="popitem" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="ItemPlaceholder" class="popslot" style="flex-grow: 1;">
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="item11" class="popitem" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="ItemPlaceholder" class="popslot" style="flex-grow: 1;">
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="item12" class="popitem" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="ItemPlaceholder" class="popslot" style="flex-grow: 1;">
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="item13" class="popitem" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="ItemPlaceholder" class="popslot" style="flex-grow: 1;">
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="item14" class="popitem" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="row1" style="flex-grow: 1; flex-direction: row;">
+                        <ui:VisualElement name="ItemPlaceholder" class="popslot">
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="item5" class="popitem" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="ItemPlaceholder" class="popslot" style="flex-grow: 1;">
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="item6" class="popitem" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="ItemPlaceholder" class="popslot" style="flex-grow: 1;">
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="item7" class="popitem" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="ItemPlaceholder" class="popslot" style="flex-grow: 1;">
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="item8" class="popitem" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="ItemPlaceholder" class="popslot" style="flex-grow: 1;">
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="item9" class="popitem" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="row0" style="flex-grow: 1; flex-direction: row; border-top-width: 10px; border-left-color: rgb(156, 160, 176); border-right-color: rgb(156, 160, 176); border-top-color: rgb(156, 160, 176); border-bottom-color: rgb(156, 160, 176);">
+                        <ui:VisualElement name="ItemPlaceholder" class="popslot">
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="item0" class="popitem" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="ItemPlaceholder" class="popslot" style="flex-grow: 1;">
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="item1" class="popitem" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="ItemPlaceholder" class="popslot" style="flex-grow: 1;">
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="item2" class="popitem" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="ItemPlaceholder" class="popslot" style="flex-grow: 1;">
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="item3" class="popitem" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="ItemPlaceholder" class="popslot" style="flex-grow: 1;">
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="item4" class="popitem" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="close_popout2" style="position: absolute; width: 100%; height: 1500px; bottom: 105%; opacity: 0;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Instance template="InfoScreen" name="InfoScreen" usage-hints="GroupTransform" style="position: absolute; width: 100%; height: 100%; display: none;" />
+        <ui:Instance template="QuickInfoScreen" name="QuickInfoScreen" style="position: absolute; display: none; width: 100%; height: 100%;" />
+        <ui:VisualElement name="Container_Inv" usage-hints="DynamicTransform" class="panel" style="flex-grow: 1; align-items: center; justify-content: center; position: absolute; width: 100%; height: 100%; display: none;">
+            <ui:VisualElement name="Scrim_Inv" class="scrim" style="position: absolute; width: 100%; height: 100%;" />
+            <ui:VisualElement name="Window" style="flex-grow: 1; background-color: rgb(239, 241, 245); width: 792px; max-height: 1716px; border-left-color: rgb(156, 160, 176); border-right-color: rgb(156, 160, 176); border-top-color: rgb(156, 160, 176); border-bottom-color: rgb(156, 160, 176); border-top-width: 8px; border-right-width: 8px; border-bottom-width: 8px; border-left-width: 8px; border-top-left-radius: 90px; border-top-right-radius: 90px; border-bottom-right-radius: 90px; border-bottom-left-radius: 90px;">
+                <ui:VisualElement name="tabs" style="flex-grow: 1; flex-direction: row; justify-content: center; border-bottom-width: 8px; border-left-color: rgb(156, 160, 176); border-right-color: rgb(156, 160, 176); border-top-color: rgb(156, 160, 176); border-bottom-color: rgb(156, 160, 176); max-height: 210px; font-size: 50px; align-items: center;">
+                    <ui:Label tabindex="-1" text="Essen" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Essen" class="tab currentlySelectedTab" />
+                    <ui:Label tabindex="-1" text="Spielen" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Spielen" class="tab" />
+                    <ui:Label tabindex="-1" text="Pflege" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Pflege" class="tab" />
+                </ui:VisualElement>
+                <ui:VisualElement name="tabContent" style="flex-grow: 1;">
+                    <ui:VisualElement name="EssenContent" class="content" style="flex-grow: 1;">
+                        <ui:VisualElement name="col1" class="col" style="flex-grow: 1;">
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="col2" class="col" style="flex-grow: 1;">
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="col3" class="col" style="flex-grow: 1;">
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="SpielenContent" class="unselectedContent content" style="flex-grow: 1;">
+                        <ui:VisualElement name="col1" class="col" style="flex-grow: 1;">
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="col2" class="col" style="flex-grow: 1;">
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="col3" class="col" style="flex-grow: 1;">
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="PfegeContent" class="unselectedContent content" style="flex-grow: 1;">
+                        <ui:VisualElement name="col1" class="col" style="flex-grow: 1;">
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="col2" class="col" style="flex-grow: 1;">
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="col3" class="col" style="flex-grow: 1;">
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                            <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Instance template="MenuScreen" name="MenuScreen" usage-hints="GroupTransform" style="position: absolute; width: 100%; height: 100%; display: none;" />
+        <ui:Instance template="CoinPopoutContainer" name="CoinPopoutContainer" usage-hints="GroupTransform" style="position: absolute; width: 40%; height: 200px; left: 30%; display: none;" />
+        <ui:Instance template="ScorePopoutContainer" name="ScorePopoutContainer" style="width: 40%; height: 200px; position: absolute; left: 30%; display: none;" />
+    </Bitbebop.SafeArea>
+    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="dragitem" class="popitem dragitem" style="position: absolute; display: none;" />
+</ui:UXML>

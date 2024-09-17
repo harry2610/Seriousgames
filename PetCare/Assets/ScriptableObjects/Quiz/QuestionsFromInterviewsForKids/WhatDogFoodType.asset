@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e173c114efdc164b8a8962149abc1d4, type: 3}
+  m_Name: WhatDogFoodType
+  m_EditorClassIdentifier: 
+  question: "Welche Art von Futter ist f\xFCr Hunde am besten?"
+  answer1: Schokolade und Kekse
+  answer2: "Auf Alter und Gr\xF6\xDFe abgestimmtes Hundefutter"
+  answer3: "Alles, was \xFCbrig bleibt"
+  answer4: Nur Fleisch
+  correctAnswer: 2
+  explanation: 

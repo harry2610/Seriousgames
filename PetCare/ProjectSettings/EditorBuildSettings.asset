@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/HomeMenu.unity
+    guid: 5075f7b200293b24abad20be17c3eb18
+  - enabled: 1
+    path: Assets/Scenes/Home.unity
+    guid: b8a4086aa1875734c9233e4ec7ef9623
+  - enabled: 0
+    path: Assets/Scenes/CommandTest.unity
+    guid: 80afdcb7039377c468dcda2d9be7246a
+  - enabled: 1
+    path: Assets/Scenes/ShopSample.unity
+    guid: c4b9ad6b52930394f8e72600f0778b94
+  - enabled: 1
+    path: Assets/Scenes/Map.unity
+    guid: 3b374f0f2e115b4418026d2ba0693c43
+  - enabled: 1
+    path: Assets/Scenes/Park.unity
+    guid: c9c1202dc5aaa8f4f85657f80994ee90
+  - enabled: 1
+    path: Assets/Scenes/Vet.unity
+    guid: 9a57fb73e2e17734abccb3dec655e08e
+  - enabled: 1
+    path: Assets/Scenes/Quiz.unity
+    guid: bf055d2c11a742f478fce74714aa30f7
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 62f6fbe59b8c1364e83aa1131c4002af
+  m_configObjects:
+    com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000,
+      guid: 9908b01bc0b1e9242add32bdcbaac857, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 10adb6567829b5d4ab0e7aadf5e7900f,
+      type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000,
+      guid: cfef02bb8f7043849a0f13dadae9a89a, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
+      guid: 40bf602690ff0984dbc25fd39480fa39, type: 2}

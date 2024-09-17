@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 500c3b16eca4a0c0dba7b5ac2a424690, type: 3}
+  m_Name: Pet
+  m_EditorClassIdentifier: 
+  id: 6555419103944311532
+  type: 4
+  title: Steichelhand
+  icon: {fileID: 2800000, guid: 092ef00d745930a4da0bfece24efe742, type: 3}
+  prefab: {fileID: 1071504854937104945, guid: d77b54fc8516de262a7e27a94457bf11, type: 3}
+  description: Streichel deinen Hund!
+  stackLimit: 1
+  price: 0
+  conditionEffects:
+  - condition: {fileID: 11400000, guid: 6c0ebae11ac685241a10bb7ba2866376, type: 2}
+    modifier: 1

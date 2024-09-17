@@ -1,0 +1,212 @@
+.commandCard {
+    background-color: rgba(0, 0, 0, 0.72);
+    overflow: visible;
+    visibility: visible;
+    position: relative;
+    bottom: auto;
+    top: auto;
+    flex-basis: auto;
+    height: 64px;
+    flex-grow: 0;
+    flex-direction: row;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 0;
+    margin-left: 8px;
+    min-height: 64px;
+    max-height: 64px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.commandIcon {
+    width: 32px;
+}
+
+.commandTextField {
+    margin-top: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    height: 26px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    -unity-background-image-tint-color: rgb(218, 14, 14);
+    background-color: rgb(117, 174, 203);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    -unity-font-style: normal;
+}
+
+.background {
+    background-size: 128px 128px;
+    background-repeat: repeat;
+    background-image: url("project://database/Assets/Materials/BlueBonePattern.png?fileID=2800000&guid=1c886902f9522c44f8953ca76b1f2fbf&type=3#BlueBonePattern");
+    background-color: rgb(35, 60, 137);
+    -unity-background-image-tint-color: rgb(99, 127, 212);
+}
+
+.button {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    margin-top: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+}
+
+.unity-text-field__input {
+    background-color: rgb(19, 19, 19);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    flex-grow: 0;
+    width: auto;
+    flex-direction: column;
+    overflow: visible;
+    visibility: visible;
+    flex-basis: auto;
+    flex-shrink: 1;
+    min-width: 75%;
+    right: 0;
+    position: absolute;
+    left: auto;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 8px;
+    min-height: 24px;
+    height: 24px;
+    align-items: flex-start;
+}
+
+.unity-base-field__label {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    align-self: auto;
+    justify-content: flex-start;
+    align-items: center;
+    width: 32px;
+    opacity: 1;
+    flex-grow: 0;
+    max-width: 32px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 4px;
+    height: 24px;
+    min-height: 24px;
+    max-height: 24px;
+    -unity-text-align: middle-left;
+    color: rgb(255, 255, 255);
+}
+
+.trait-card {
+    background-color: rgba(0, 0, 0, 0.75);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    margin-top: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    width: 64px;
+    height: 64px;
+    max-width: none;
+    font-size: 10px;
+    flex-grow: 1;
+    padding-top: 8px;
+}
+
+.start-game-card {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: rgb(255, 255, 255);
+    -unity-text-align: upper-center;
+    border-top-width: 4px;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+    border-left-color: rgb(24, 24, 24);
+    border-right-color: rgb(24, 24, 24);
+    border-top-color: rgb(24, 24, 24);
+    border-bottom-color: rgb(24, 24, 24);
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+
+.start-game-card-selected {
+    border-left-color: rgb(8, 136, 31);
+    border-right-color: rgb(8, 136, 31);
+    border-top-color: rgb(8, 136, 31);
+    border-bottom-color: rgb(8, 136, 31);
+}
+
+#FastMode .unity-toggle__checkmark {
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-left-color: rgb(220, 224, 232);
+    border-right-color: rgb(220, 224, 232);
+    border-top-color: rgb(220, 224, 232);
+    border-bottom-color: rgb(220, 224, 232);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(220, 224, 232);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    padding-left: 30px;
+}
+
+#FastMode:checked .unity-toggle__checkmark {
+    background-image: url("project://database/Assets/Arts/Icons/Interface/icons8-h%C3%A4kchen-375.png?fileID=2800000&guid=41c0e3e2b8095094288286593676025a&type=3#icons8-häkchen-375");
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+#FastMode:active .unity-toggle__checkmark {
+    background-image: url("project://database/Assets/Arts/Icons/Interface/icons8-h%C3%A4kchen-375.png?fileID=2800000&guid=41c0e3e2b8095094288286593676025a&type=3#icons8-häkchen-375");
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    -unity-background-scale-mode: scale-to-fit;
+    scale: 0.95 0.95;
+    transition-property: scale;
+    transition-timing-function: ease-out-elastic;
+    transition-duration: 0.5s;
+}

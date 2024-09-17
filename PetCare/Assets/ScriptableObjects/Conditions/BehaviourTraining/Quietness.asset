@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c59db9a005c4a144aa586dfaf63f0a3, type: 3}
+  m_Name: Quietness
+  m_EditorClassIdentifier: 
+  id: 6818391730197584287
+  title: "Lautst\xE4rke"
+  icon: {fileID: 0}
+  description: 
+  unit: '%'
+  minimumValue: 0
+  maximumValue: 100
+  initialValue: 20
+  changePerDay: 0
+  isTrainable: 1
+  conditionRanges:
+  - title: "Kl\xE4ffer"
+    impulse: {fileID: 0}
+    tooltip: {fileID: 0}
+    minThreshold: 0
+    maxThreshold: 40
+  - title: Bellend
+    impulse: {fileID: 0}
+    tooltip: {fileID: 0}
+    minThreshold: 40
+    maxThreshold: 80
+  - title: Ruhig
+    impulse: {fileID: 0}
+    tooltip: {fileID: 0}
+    minThreshold: 80
+    maxThreshold: 100

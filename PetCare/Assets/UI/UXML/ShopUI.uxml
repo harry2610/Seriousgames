@@ -1,0 +1,68 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="TopButtons" src="project://database/Assets/UI/UXML/TopButtons.uxml?fileID=9197481963319205126&amp;guid=5dc214228123852469fce235f0d3ebf5&amp;type=3#TopButtons" />
+    <ui:Template name="InfoScreen" src="project://database/Assets/UI/UXML/InfoScreen.uxml?fileID=9197481963319205126&amp;guid=344040c7aef87ce488bea0287c5e41ed&amp;type=3#InfoScreen" />
+    <ui:Template name="MenuScreen" src="project://database/Assets/UI/UXML/MenuScreen.uxml?fileID=9197481963319205126&amp;guid=78f084ac368625e448645df962587472&amp;type=3#MenuScreen" />
+    <ui:Template name="CoinView" src="project://database/Assets/UI/UXML/CoinView.uxml?fileID=9197481963319205126&amp;guid=7adf748d9f182d744ac0fa28e150f68c&amp;type=3#CoinView" />
+    <ui:Template name="QuickInfoScreen" src="project://database/Assets/UI/UXML/QuickInfoScreen.uxml?fileID=9197481963319205126&amp;guid=9d716c0cc755cc246bc887b6d162f47e&amp;type=3#QuickInfoScreen" />
+    <ui:Template name="CoinPopoutContainer" src="project://database/Assets/UI/UXML/CoinPopoutContainer.uxml?fileID=9197481963319205126&amp;guid=5d473d1458c476141bc0c52eb430bfcf&amp;type=3#CoinPopoutContainer" />
+    <Style src="project://database/Assets/UI/general-ui.uss?fileID=7433441132597879392&amp;guid=8153f3913cdbbdd44a754631aad116d6&amp;type=3#general-ui" />
+    <Style src="project://database/Assets/UI/inventory.uss?fileID=7433441132597879392&amp;guid=b77f6144229982a4184ce834de2856eb&amp;type=3#inventory" />
+    <Style src="project://database/Assets/UI/main-menu.uss?fileID=7433441132597879392&amp;guid=30584fda57680f44eb1c733120099237&amp;type=3#main-menu" />
+    <Style src="project://database/Assets/UI/popout.uss?fileID=7433441132597879392&amp;guid=2e6c022f99f704144bffea800829305d&amp;type=3#popout" />
+    <Style src="project://database/Assets/UI/shop-ui.uss?fileID=7433441132597879392&amp;guid=3c494f07f78beec4a980bdfb1e8f2467&amp;type=3#shop-ui" />
+    <Bitbebop.SafeArea usage-hints="GroupTransform" style="background-image: url(&quot;project://database/Assets/Arts/Icons/Interface/convstore2.jpg?fileID=2800000&amp;guid=fcb24bc56513c96458076b7d72b5aae3&amp;type=3#convstore2&quot;); -unity-background-scale-mode: scale-and-crop;">
+        <ui:VisualElement name="Panel" class="panel" style="flex-grow: 1;">
+            <ui:Instance template="TopButtons" name="TopButtons" style="height: 550px;" />
+            <ui:VisualElement name="ShopOpenButtons" style="flex-grow: 1; flex-direction: column; flex-wrap: wrap; justify-content: space-between;">
+                <ui:VisualElement name="ShopOpenButtonsTop" style="flex-grow: 1; flex-direction: row;">
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="ShopOpenButton1" class="OpenShopButton">
+                        <ui:VisualElement class="OpenShopButtonInside" style="flex-grow: 1;">
+                            <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Arts/Icons/Items/BallIcon.png?fileID=2800000&amp;guid=3fbf996b206548d45b962b4f55670c79&amp;type=3#BallIcon&quot;); -unity-background-scale-mode: scale-to-fit;" />
+                        </ui:VisualElement>
+                    </ui:Button>
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="ShopOpenButton2" class="OpenShopButton">
+                        <ui:VisualElement class="OpenShopButtonInside" style="flex-grow: 1;">
+                            <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Arts/Icons/Interface/icons8-hundeknochen-94.png?fileID=2800000&amp;guid=a08d58c27c93dfe48897426c4b698bf9&amp;type=3#icons8-hundeknochen-94&quot;); -unity-background-scale-mode: scale-to-fit;" />
+                        </ui:VisualElement>
+                    </ui:Button>
+                </ui:VisualElement>
+                <ui:VisualElement name="ShopOpenButtonsBot" style="flex-grow: 1; flex-direction: row;">
+                    <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ShopOpenButton3" class="OpenShopButton" style="visibility: hidden;">
+                        <ui:VisualElement class="OpenShopButtonInside" style="flex-grow: 1;">
+                            <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Arts/Icons/Interface/icons8-bandage-94.png?fileID=2800000&amp;guid=20d7c87130cb8914d8fd592ee9d050e3&amp;type=3#icons8-bandage-94&quot;); -unity-background-scale-mode: scale-to-fit;" />
+                        </ui:VisualElement>
+                    </ui:Button>
+                    <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ShopOpenButton4" class="OpenShopButton">
+                        <ui:VisualElement class="OpenShopButtonInside" style="flex-grow: 1;">
+                            <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Arts/Icons/Interface/icons8-tooth-cleaning-kit-94.png?fileID=2800000&amp;guid=7cadd474d256d8b498572ebc4ae2ffb9&amp;type=3#icons8-tooth-cleaning-kit-94&quot;); -unity-background-scale-mode: scale-to-fit;" />
+                        </ui:VisualElement>
+                    </ui:Button>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Instance template="InfoScreen" name="InfoScreen" style="position: absolute; width: 100%; height: 100%; display: none;" />
+        <ui:Instance template="MenuScreen" name="MenuScreen" style="position: absolute; width: 100%; height: 100%; display: none;" />
+        <ui:VisualElement name="Shop_Screen" class="panel" style="flex-grow: 1; position: absolute; width: 100%; height: 100%; display: none;">
+            <ui:VisualElement name="Scrim_Shop" class="scrim" style="flex-grow: 1;" />
+            <ui:VisualElement name="Shop_Container" style="flex-grow: 1; position: absolute; width: 100%; height: 100%; padding-top: 5%; padding-bottom: 5%; justify-content: space-between;">
+                <ui:VisualElement name="ShopTopBar" class="topbotelement">
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="ExitShop" class="main-button">
+                        <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Arts/Icons/Interface/icons8-l%C3%B6schen-188.png?fileID=2800000&amp;guid=516541b5922cb6c48bd8033a9c3bafff&amp;type=3#icons8-löschen-188&quot;);" />
+                    </ui:Button>
+                </ui:VisualElement>
+                <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" name="ShopList" touch-scroll-type="Elastic" usage-hints="DynamicTransform" class="shopList shopList_left" />
+                <ui:VisualElement name="ShopBotBar" class="topbotelement">
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="PrevShop" class="main-button">
+                        <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Arts/Icons/Interface/icons8-up-94.png?fileID=2800000&amp;guid=13b1c129106d6bb43b3f6b3095f8fc58&amp;type=3#icons8-up-94&quot;); rotate: 270deg;" />
+                    </ui:Button>
+                    <ui:Instance template="CoinView" name="CoinView" style="max-width: 40%; max-height: 50%; background-color: rgb(239, 241, 245);" />
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="NextShop" class="main-button">
+                        <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Arts/Icons/Interface/icons8-up-94.png?fileID=2800000&amp;guid=13b1c129106d6bb43b3f6b3095f8fc58&amp;type=3#icons8-up-94&quot;); rotate: 90deg;" />
+                    </ui:Button>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Instance template="QuickInfoScreen" name="QuickInfoScreen" style="display: none; position: absolute; width: 100%; height: 100%;" />
+        <ui:Instance template="CoinPopoutContainer" name="CoinPopoutContainer" style="position: absolute; left: 30%; width: 40%; height: 200px; display: none;" />
+    </Bitbebop.SafeArea>
+</ui:UXML>

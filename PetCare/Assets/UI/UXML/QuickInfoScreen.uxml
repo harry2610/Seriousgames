@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/general-ui.uss?fileID=7433441132597879392&amp;guid=8153f3913cdbbdd44a754631aad116d6&amp;type=3#general-ui" />
+    <Style src="project://database/Assets/UI/inventory.uss?fileID=7433441132597879392&amp;guid=b77f6144229982a4184ce834de2856eb&amp;type=3#inventory" />
+    <Style src="project://database/Assets/UI/main-menu.uss?fileID=7433441132597879392&amp;guid=30584fda57680f44eb1c733120099237&amp;type=3#main-menu" />
+    <Style src="project://database/Assets/UI/popout.uss?fileID=7433441132597879392&amp;guid=2e6c022f99f704144bffea800829305d&amp;type=3#popout" />
+    <ui:VisualElement name="Container_QuickInfo" usage-hints="GroupTransform" class="panel" style="flex-grow: 1; position: absolute; width: 100%; height: 100%; -unity-font-definition: url(&quot;project://database/Assets/Arts/Fonts/Ubuntu/UbuntuNerdFont-Regular%20SDF.asset?fileID=11400000&amp;guid=f1fcbc5b0433db941a0991bd7afe3702&amp;type=2#UbuntuNerdFont-Regular SDF&quot;); -unity-font: url(&quot;project://database/Assets/Arts/Fonts/Ubuntu/UbuntuNerdFont-Regular.ttf?fileID=12800000&amp;guid=0475b4bda9ba13c41a6d1711232eb8db&amp;type=3#UbuntuNerdFont-Regular&quot;); flex-direction: row; display: flex;">
+        <ui:VisualElement name="Scrim_QuickInfo" class="scrim" />
+        <ui:VisualElement name="QuickInfoExplanation" usage-hints="DynamicTransform" class="explanation" style="padding-top: 35px; padding-right: 35px; padding-bottom: 35px; padding-left: 35px; justify-content: flex-start; transition-duration: 0.2s;">
+            <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="QuickInfoHeader" style="width: 100%; height: auto; -unity-text-align: middle-left; white-space: normal; font-size: 60px; -unity-font-style: bold; text-overflow: ellipsis; color: rgb(76, 79, 105);" />
+            <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="QuickInfoText" style="width: 100%; height: auto; white-space: normal; font-size: 45px; text-overflow: ellipsis; color: rgb(76, 79, 105);" />
+        </ui:VisualElement>
+        <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="QuickInfoButton" style="position: absolute; width: 100%; height: 100%; opacity: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;" />
+    </ui:VisualElement>
+</ui:UXML>

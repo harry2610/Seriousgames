@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79733308c863df24e89a0222c8adb692, type: 3}
+  m_Name: Poop
+  m_EditorClassIdentifier: 
+  id: -291017234929435432
+  title: Kacken
+  icon: {fileID: 2800000, guid: 7d2088e035064d94f833b0bb68405e3d, type: 3}
+  description: 
+  points: 5
+  impulseOnEnd: {fileID: 11400000, guid: 3d7e4c864994cd84dae85ec733371ca1, type: 2}
+  isAbortable: 0
+  excrements: {fileID: 8877757476028132075, guid: 48a2b711d40e8a07a89f44589c894403,
+    type: 3}
+  bodyOpening: 0
+  releavingCondition: {fileID: 11400000, guid: 29ee42319302aac468f1f6025f8561c6, type: 2}
+  quicktip: {fileID: 11400000, guid: 0f34956065027ee4ab20d6d283ccb655, type: 2}

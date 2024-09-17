@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="110mm"
+   height="140mm"
+   viewBox="0 0 110 140"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   sodipodi:docname="waterParticle.svg"
+   inkscape:export-filename="waterParticle.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="1.5108866"
+     inkscape:cx="385.53521"
+     inkscape:cy="270.04011"
+     inkscape:window-width="3440"
+     inkscape:window-height="1360"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="-11.192521"
+       originy="-7.5738984"
+       spacingx="0.99999998"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient3"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#00ffea;stop-opacity:0.33591774;"
+         offset="0"
+         id="stop3" />
+      <stop
+         style="stop-color:#00ffea;stop-opacity:0;"
+         offset="1"
+         id="stop4" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3"
+       id="radialGradient4"
+       cx="68.16188"
+       cy="75.473167"
+       fx="68.16188"
+       fy="75.473167"
+       r="55"
+       gradientTransform="matrix(1,0,0,1.2727273,-1.9693549,-18.482859)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-11.19252,-7.5738983)">
+    <ellipse
+       style="fill:url(#radialGradient4);stroke:none;stroke-width:0.88;stroke-dasharray:none;stroke-opacity:1"
+       id="path3"
+       cx="66.19252"
+       cy="77.573898"
+       rx="55"
+       ry="70" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#aafeff;stroke-width:0.632113;stroke-opacity:0.0920742"
+       d="m 85.000002,21.281145 c -15.607997,26.690389 -7.249394,40.619009 0,58.718853 7.249396,18.099841 8.160271,32.028472 0,48.042702"
+       id="path1-5-2" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#aafeff;stroke-width:0.599248;stroke-opacity:0.0789191"
+       d="m 63.231664,23.225901 c 14.018903,26.70612 6.511312,40.64295 0,58.753463 -6.511315,18.110506 -7.329452,32.047346 0,48.071016"
+       id="path1" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#aafeff;stroke-width:0.632113;stroke-opacity:0.0645729"
+       d="m 47.271536,24.201146 c -15.607997,26.690389 -7.249394,40.619009 0,58.718853 7.249396,18.099841 8.160271,32.028471 0,48.042701"
+       id="path1-5" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#47d1d3;stroke-width:0.879999;stroke-opacity:0.127949"
+       d="m 36.49571,44.688863 c -12.338346,19.999999 -9.25236,32.457617 -4.626182,39.990503 4.626182,7.53289 9.626179,25.009504 -0.373819,35.009504 M 103.75825,27.954783 c -12.33834,20.000001 -9.252354,32.457619 -4.626177,39.990507 4.626177,7.532886 9.626177,25.009496 -0.37382,35.0095"
+       id="path2"
+       sodipodi:nodetypes="csc" />
+  </g>
+</svg>

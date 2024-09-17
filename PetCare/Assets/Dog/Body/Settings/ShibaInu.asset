@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 001f83486ed7d3a4e8c0358ed37e5ef6, type: 3}
+  m_Name: ShibaInu
+  m_EditorClassIdentifier: 
+  breathingWobbleAmplitude: 0.002
+  stepSize: 0.4
+  acceleration: 2
+  deceleration: 2
+  frontPawMaxDisplacement: 0.1
+  frontPawMinDisplacement: -0.08
+  rearPawMaxDisplacement: 0.19
+  rearPawMinDisplacement: -0.07
+  pawInfluenceForPelvis: 0.4
+  pawInfluenceForNeck: 0.25
+  pawWalkSwerving: 0.03
+  spineStretching: 0.03
+  barkingSounds:
+  - {fileID: 8300000, guid: 0a194ddfbdfb6c347bc96c74bb63c2b7, type: 3}
+  - {fileID: 8300000, guid: b1a3255e8fc9aab4dbb0751a1ca546ce, type: 3}
+  - {fileID: 8300000, guid: 3b1ab7ce40e7f9440b206a2249116962, type: 3}
+  - {fileID: 8300000, guid: b1d6328c707c44f499993a4212149055, type: 3}
+  howlingSounds:
+  - {fileID: 8300000, guid: 69641fe65e6fe158386ec2101974d06f, type: 3}
+  growlingSounds:
+  - {fileID: 8300000, guid: b01b7d0a4ce3c15f49fb70bf99107ff1, type: 3}
+  - {fileID: 8300000, guid: 584b5b209004b461b86a670d51e8a277, type: 3}
+  - {fileID: 8300000, guid: 9ed0498daf553949d9df2b1f8df9bc2d, type: 3}
+  sniffingSounds:
+  - {fileID: 8300000, guid: 03791f24f8a3b876d8b589f5bc0f1552, type: 3}
+  eatingSounds:
+  - {fileID: 8300000, guid: 540d18414fb4c8c76a9b651587f7807b, type: 3}
+  - {fileID: 8300000, guid: 352ea2192e37a23e28e10cd8fd3840ea, type: 3}
+  - {fileID: 8300000, guid: 634daf868af0ff8dbb8204557f340dfd, type: 3}
+  - {fileID: 8300000, guid: f5765316e96a79147a954c5131f66584, type: 3}
+  - {fileID: 8300000, guid: 9d6f39283431cce7c9472f94684a722b, type: 3}
+  - {fileID: 8300000, guid: 529af1fae81e751bca33ddb6509a154e, type: 3}
+  - {fileID: 8300000, guid: b226556befeb008b18cb4ca3d1324b35, type: 3}
+  - {fileID: 8300000, guid: a775dee4717e7a3f69f6a9ce35514ce1, type: 3}
+  - {fileID: 8300000, guid: 677c6ba386005e6fdb32839c489d867f, type: 3}
+  - {fileID: 8300000, guid: 422911da99fbcd3bd8fb7a75e79f0a3a, type: 3}
+  drinkingSounds:
+  - {fileID: 8300000, guid: d0d8d1baa24d7f774a830549b22f73d7, type: 3}
+  - {fileID: 8300000, guid: 9e61305322eab731085fc043e8c4f71f, type: 3}
+  - {fileID: 8300000, guid: 618b6ecd617122217a647d14f6967ca4, type: 3}
+  - {fileID: 8300000, guid: 92e4803a9f76091a29deb8a5d7b767b2, type: 3}
+  - {fileID: 8300000, guid: c310eeac7381368e499978dea4ab2b57, type: 3}
+  - {fileID: 8300000, guid: aba8f6cbd8b9a4e65812d5e9c59059a8, type: 3}
+  - {fileID: 8300000, guid: 122bfefcb49adbf3198d32ee5ff43ae0, type: 3}
+  - {fileID: 8300000, guid: 6f7a861fe3a8760e69610f3631eceff1, type: 3}

@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7309459813216458788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3714051356005686213}
+  - component: {fileID: 3352727157850962394}
+  - component: {fileID: 5502281654560520894}
+  - component: {fileID: 2780181774798836153}
+  - component: {fileID: 3879392130935307544}
+  - component: {fileID: 2382376517772161288}
+  - component: {fileID: -8931728129469493810}
+  m_Layer: 5
+  m_Name: ShopUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3714051356005686213
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7309459813216458788}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3352727157850962394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7309459813216458788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: dd37f7f9c4689f243a6964fa63d1e173, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: 07854e458bbacd84e990b4b0c47248a8,
+    type: 3}
+  m_SortingOrder: 0
+--- !u!114 &5502281654560520894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7309459813216458788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d690ea3721ea004b87558e38fb96961, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainingUI: {fileID: 2907096804141444422, guid: d1bb2784a3e0dca4bb44c53223b44337,
+    type: 3}
+  myVisualTreeAsset: {fileID: 9197481963319205126, guid: 1d1c4ad316b39bb4e8b9a5d9c63ae926,
+    type: 3}
+--- !u!114 &2780181774798836153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7309459813216458788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65331d7bd35030d4cbd5078b6f34bd80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TypingSpeed: 25
+  tooltipText: "Hier steht eine kurze Erkl\xE4rung, was du tun musst..."
+  tooltipHeader: Das ist ein Tipp!
+--- !u!114 &3879392130935307544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7309459813216458788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78f10bbd5592502469f226fa466c4acd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myVisualTreeAsset: {fileID: 9197481963319205126, guid: dea99e7115453e44cb51afdbcb4e1c79,
+    type: 3}
+  PlayerInventoryList: {fileID: 11400000, guid: 8e5fd2a57bc4b4a458245ee7f0a0710a,
+    type: 2}
+  ShopInventoryLists:
+  - {fileID: 11400000, guid: 00cdafe233e528e4bb6a0bb96cc6d012, type: 2}
+  - {fileID: 11400000, guid: 83d6cf4addfc9694aaa91897441fdd94, type: 2}
+  - {fileID: 11400000, guid: 0d36db8b3dc0223429a5dc372acd7863, type: 2}
+  tipForShop: {fileID: 11400000, guid: 2c6689aef45263b419d003495283975e, type: 2}
+  tipForShopButton: {fileID: 11400000, guid: 48f5cb0749ee31741b6e85ca8750f576, type: 2}
+  tipForNotEnoughCoins: {fileID: 11400000, guid: 19c9b01bfbec23f489078b580ce5040e,
+    type: 2}
+--- !u!114 &2382376517772161288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7309459813216458788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2ee8f08944b90a45a9742edc36be674, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TypingSpeed: 25
+--- !u!114 &-8931728129469493810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7309459813216458788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cd414e09adc7fa4a9701d3b5bb0f85f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

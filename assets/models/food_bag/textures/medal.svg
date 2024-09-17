@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="42.790302mm"
+   height="92.688042mm"
+   viewBox="0 0 42.790302 92.688041"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   sodipodi:docname="medal.svg"
+   inkscape:export-filename="medal.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="1.029826"
+     inkscape:cx="213.14279"
+     inkscape:cy="301.02171"
+     inkscape:window-width="3440"
+     inkscape:window-height="1360"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="-48.604849"
+       originy="-68.810005"
+       spacingx="0.99999998"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="57.698343,74.828124"
+       end_point="50.635015,117.7927"
+       center_point="54.166679,96.310412"
+       id="path-effect2"
+       is_visible="true"
+       lpeversion="1.2"
+       lpesatellites="#path2"
+       mode="vertical"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false"
+       split_items="true"
+       split_open="false"
+       link_styles="false" />
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="62.10532,107.02378"
+       end_point="62.10532,166.8314"
+       center_point="62.10532,136.92759"
+       id="path-effect1"
+       is_visible="true"
+       lpeversion="1.2"
+       lpesatellites=""
+       mode="free"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false"
+       split_items="false"
+       split_open="false"
+       link_styles="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-48.604847,-68.810002)">
+    <path
+       id="rect1"
+       transform="matrix(1,0,0.16439887,0.98639394,-1.627853e-6,-5.0000065)"
+       d="m 42.500015,106.44834 h 19.999998 v 60.82763 H 42.500015 Z"
+       style="fill:#ec2d2d;fill-opacity:1;stroke:#870000;stroke-width:2.39636;stroke-opacity:1" />
+    <path
+       transform="matrix(-1,-0.31578927,-0.16439887,0.93447854,140,17.105243)"
+       id="path2"
+       d="m 42.500015,106.44834 h 19.999998 v 60.82763 H 42.500015 Z"
+       style="fill:#3636f5;fill-opacity:1;stroke:#000072;stroke-width:2.39636;stroke-opacity:1" />
+    <ellipse
+       style="fill:#c19b00;fill-opacity:1;stroke:#8f7208;stroke-width:2.38;stroke-opacity:1"
+       id="path1"
+       cx="70"
+       cy="90"
+       rx="20"
+       ry="19.999998" />
+  </g>
+</svg>

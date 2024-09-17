@@ -1,0 +1,54 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="CoinPopoutContainer" src="project://database/Assets/UI/UXML/CoinPopoutContainer.uxml?fileID=9197481963319205126&amp;guid=5d473d1458c476141bc0c52eb430bfcf&amp;type=3#CoinPopoutContainer" />
+    <Style src="project://database/Assets/UI/general-ui.uss?fileID=7433441132597879392&amp;guid=8153f3913cdbbdd44a754631aad116d6&amp;type=3#general-ui" />
+    <Style src="project://database/Assets/UI/inventory.uss?fileID=7433441132597879392&amp;guid=b77f6144229982a4184ce834de2856eb&amp;type=3#inventory" />
+    <Style src="project://database/Assets/UI/main-menu.uss?fileID=7433441132597879392&amp;guid=30584fda57680f44eb1c733120099237&amp;type=3#main-menu" />
+    <Style src="project://database/Assets/UI/popout.uss?fileID=7433441132597879392&amp;guid=2e6c022f99f704144bffea800829305d&amp;type=3#popout" />
+    <Style src="project://database/Assets/UI/shop-ui.uss?fileID=7433441132597879392&amp;guid=3c494f07f78beec4a980bdfb1e8f2467&amp;type=3#shop-ui" />
+    <Style src="project://database/Assets/UI/quiz-ui.uss?fileID=7433441132597879392&amp;guid=fe35d3b60c236ff41827d5c36cf1e04f&amp;type=3#quiz-ui" />
+    <Bitbebop.SafeArea usage-hints="GroupTransform" style="background-color: rgb(239, 241, 245);">
+        <ui:VisualElement name="Panel" class="panel" style="flex-grow: 1;">
+            <ui:VisualElement name="QuizTopBar" style="flex-grow: 1; max-height: 20%; min-height: 20%;">
+                <ui:VisualElement name="QuizTopBarTop" class="quiz-top-bar-element" style="align-items: center; padding-top: 4%;">
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="QuizBackButton" class="main-button" style="padding-top: 40px; padding-right: 40px; padding-bottom: 40px; padding-left: 40px; left: -30px; background-color: rgb(230, 233, 239);">
+                        <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Arts/Icons/Interface/icons8-arrow-left-90.png?fileID=2800000&amp;guid=8920a2a19939f544e9c962a687879787&amp;type=3#icons8-arrow-left-90&quot;); -unity-background-image-tint-color: rgba(255, 255, 255, 0.64); -unity-background-scale-mode: scale-to-fit;" />
+                    </ui:Button>
+                    <ui:Label tabindex="-1" text="Quiz des Tages" parse-escape-sequences="true" display-tooltip-when-elided="true" style="font-size: 70px; -unity-font-style: bold; color: rgb(76, 79, 105);" />
+                    <ui:Button text="Skip" parse-escape-sequences="true" display-tooltip-when-elided="true" name="QuizSkipButton" class="main-button" style="right: -20px; background-color: rgb(230, 233, 239);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="QuizTopBarBottom" class="quiz-top-bar-element" style="flex-grow: 1; flex-direction: column; align-items: flex-start; justify-content: center; padding-bottom: 3%;">
+                    <ui:ProgressBar value="0.2" name="QuizProgressBar" high-value="1" style="width: 100%; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; overflow: hidden; height: auto;" />
+                    <ui:VisualElement name="QuizProgressAmount" style="flex-grow: 1; flex-direction: row; max-height: 22%; min-height: 22%;">
+                        <ui:Label tabindex="-1" text="1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="DoneQuizes" style="font-size: 40px; -unity-font-style: bold; color: rgb(4, 165, 229); -unity-text-align: middle-right;" />
+                        <ui:Label tabindex="-1" text="/3" parse-escape-sequences="true" display-tooltip-when-elided="true" name="AllQuizes" style="font-size: 30px; -unity-font-style: bold; color: rgb(172, 176, 190); -unity-text-align: middle-left; letter-spacing: 10px;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="QuizMain" style="flex-grow: 1;">
+                <ui:VisualElement name="QuizQuestionContainer" style="flex-grow: 1; max-height: 22%; min-height: 22%; padding-right: 8%; padding-left: 8%; justify-content: center; padding-bottom: 6%;">
+                    <ui:Label tabindex="-1" text="Was kann passieren, wenn man die Körpersprache eines Hundes falsch interpretiert" parse-escape-sequences="true" display-tooltip-when-elided="true" name="QuizQuestion" style="font-size: 78px; -unity-font-style: bold; letter-spacing: -0.5px; color: rgb(76, 79, 105); white-space: normal; -unity-text-align: middle-left;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="QuizAnswerContainer" style="flex-grow: 1; padding-left: 8%; padding-right: 8%; justify-content: space-around; padding-bottom: 14%;">
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Answer1" class="quiz-answer-button quiz-answer-button-correct" style="align-items: center;">
+                        <ui:Label tabindex="-1" text="Lorem ipsum dolor sit amet" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Answer1Text" class="answer-text" />
+                        <ui:VisualElement name="AnswerIcon" class="answer-icon answer-icon-correct" />
+                    </ui:Button>
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Answer2" class="quiz-answer-button quiz-answer-button-wrong">
+                        <ui:Label tabindex="-1" text="Lorem ipsum dolor sit amet" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Answer1Text" class="answer-text" />
+                        <ui:VisualElement name="AnswerIcon" class="answer-icon answer-icon-wrong" />
+                    </ui:Button>
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Answer3" class="quiz-answer-button">
+                        <ui:Label tabindex="-1" text="Lorem ipsum dolor sit amet" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Answer1Text" class="answer-text" />
+                        <ui:VisualElement name="AnswerIcon" class="answer-icon" />
+                    </ui:Button>
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Answer4" class="quiz-answer-button">
+                        <ui:Label tabindex="-1" text="Lorem ipsum dolor sit amet" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Answer1Text" class="answer-text" />
+                        <ui:VisualElement name="AnswerIcon" class="answer-icon" />
+                    </ui:Button>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="OverlayScrim" style="flex-grow: 1; position: absolute; width: 100%; height: 100%; display: none;" />
+        <ui:Instance template="CoinPopoutContainer" name="CoinPopoutContainer" style="position: absolute; left: 27%; width: 45%; height: 180px; display: flex; background-color: rgba(0, 0, 0, 0.09); border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; padding-top: 2%; padding-right: 2%; padding-bottom: 2%; padding-left: 2%; top: 2%;" />
+    </Bitbebop.SafeArea>
+</ui:UXML>

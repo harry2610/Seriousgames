@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e173c114efdc164b8a8962149abc1d4, type: 3}
+  m_Name: HowLongPuppyTraining
+  m_EditorClassIdentifier: 
+  question: Wie lange sollte ein Welpe am Anfang trainiert werden?
+  answer1: "Mehrere Stunden am St\xFCck"
+  answer2: "Nur ein paar Minuten, aber daf\xFCr \xF6fter am Tag"
+  answer3: "Gar nicht, bis er \xE4lter ist"
+  answer4: "Einmal pro Woche f\xFCr eine Stunde"
+  correctAnswer: 2
+  explanation: 

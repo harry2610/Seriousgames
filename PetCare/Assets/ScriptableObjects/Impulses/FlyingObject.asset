@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1f6cdb94fcb2cd489f36fc14bcee890, type: 3}
+  m_Name: FlyingObject
+  m_EditorClassIdentifier: 
+  activityOptions:
+  - activity: {fileID: 11400000, guid: 3ef0a73de21fb58459bf26ab039a37ba, type: 2}
+    basePriority: 70
+    traitModifier:
+    - trait: {fileID: 11400000, guid: 9eaf270a753a16d4a80047c7a77e4ba5, type: 2}
+      priorityModifier: 30
+  - activity: {fileID: 11400000, guid: 15049f9ff1d89fa4b8d5f405d8ec1a65, type: 2}
+    basePriority: 20
+    traitModifier:
+    - trait: {fileID: 11400000, guid: 0dc2a6f3c2fa60642a446234328b416e, type: 2}
+      priorityModifier: 20

@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9044802392728981580
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7489669111985839288}
+  - component: {fileID: 5209506988166999796}
+  - component: {fileID: 5489795678042330922}
+  - component: {fileID: 4789443920552758637}
+  - component: {fileID: 7630356633128458446}
+  - component: {fileID: 158951768701032372}
+  - component: {fileID: 393981521572777722}
+  - component: {fileID: 5163459709410215203}
+  - component: {fileID: 2479443033937699939}
+  - component: {fileID: 2436444768944964264}
+  m_Layer: 5
+  m_Name: ParkUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7489669111985839288
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9044802392728981580}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5209506988166999796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9044802392728981580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: dd37f7f9c4689f243a6964fa63d1e173, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: 70abaa5161cb7004089406e8e42cd6ba,
+    type: 3}
+  m_SortingOrder: 0
+--- !u!114 &5489795678042330922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9044802392728981580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4e71befc0ab56c4493bab807aa82112, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4789443920552758637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9044802392728981580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99c7e1cf68ab07e4ea02ec8ed8c30696, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventoryList: {fileID: 11400000, guid: 8e5fd2a57bc4b4a458245ee7f0a0710a, type: 2}
+  tipForThrowables: {fileID: 11400000, guid: 59454044207a3e244af27492785b9af8, type: 2}
+  tipForPlaceables: {fileID: 11400000, guid: 3245b37dda6afdd4a875fd0319c00bae, type: 2}
+  tipForConsumables: {fileID: 11400000, guid: 95d82129e0fca88449094493572da539, type: 2}
+  tipForNoBowlPlaced: {fileID: 11400000, guid: aa3371c579852d04dbc7439ab1a10556, type: 2}
+  tipForPooDeleter: {fileID: 11400000, guid: c1e8c160b0311d346abfc416152d684f, type: 2}
+  tipForNoPoo: {fileID: 11400000, guid: 7972d66b3ee906544b75aa67ebd4be20, type: 2}
+  tipForInventoryButton: {fileID: 11400000, guid: c5f5deb69ba2d4849b9be72b0c85b6b5,
+    type: 2}
+  tipForFirstStart: {fileID: 11400000, guid: 6ed523b4680eee84da1f60d591e42691, type: 2}
+  tipForScissor: {fileID: 11400000, guid: e9f7e06dd0fb98b4eac162a2015f04c7, type: 2}
+--- !u!114 &7630356633128458446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9044802392728981580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d690ea3721ea004b87558e38fb96961, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainingUI: {fileID: 2907096804141444422, guid: d1bb2784a3e0dca4bb44c53223b44337,
+    type: 3}
+  myVisualTreeAsset: {fileID: 9197481963319205126, guid: 1d1c4ad316b39bb4e8b9a5d9c63ae926,
+    type: 3}
+--- !u!114 &158951768701032372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9044802392728981580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be72d0d3ccdc20642a7515ba4fbebd84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  commandImpulse: {fileID: 11400000, guid: 16f7136ddffbdd74ba085ac2cf1d5709, type: 2}
+  tipForSpeakButton: {fileID: 11400000, guid: ba2f67117dd481e4088ed99139ab7bd6, type: 2}
+--- !u!114 &393981521572777722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9044802392728981580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65331d7bd35030d4cbd5078b6f34bd80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TypingSpeed: 25
+  tooltipText: "Hier steht eine kurze Erkl\xE4rung, was du tun musst..."
+  tooltipHeader: Das ist ein Tipp!
+--- !u!114 &5163459709410215203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9044802392728981580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674889affe1bc834298b674608991e16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkieManager: {fileID: 0}
+  walkieSound: {fileID: 8300000, guid: 56192b05c779d0f4599dfd0d032cefa6, type: 3}
+--- !u!114 &2479443033937699939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9044802392728981580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f70cdc9c89c43ee4482e16586d32a2b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2436444768944964264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9044802392728981580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2ee8f08944b90a45a9742edc36be674, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TypingSpeed: 25

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f6b349cc1f723142968a80e73d839a3, type: 3}
+  m_Name: FoodItemsShop
+  m_EditorClassIdentifier: 
+  Inventory:
+  - Item: {fileID: 11400000, guid: 19088db1ea36ad34c8fbb6d6099e4cc0, type: 2}
+    Amount: 1
+    SlotID: 0
+    IsInUse: 0
+  - Item: {fileID: 11400000, guid: c292b3847cd7827cc89cc8754ae30901, type: 2}
+    Amount: 1
+    SlotID: 1
+    IsInUse: 0
+  - Item: {fileID: 11400000, guid: bc9c38430340bd425ba61798e359cee8, type: 2}
+    Amount: 1
+    SlotID: 2
+    IsInUse: 0
+  - Item: {fileID: 11400000, guid: dca8bd075fe059cb9b2a236d3d2940a3, type: 2}
+    Amount: 1
+    SlotID: 3
+    IsInUse: 0
+  - Item: {fileID: 11400000, guid: 050945e35979be045ae703f6e5883d10, type: 2}
+    Amount: 1
+    SlotID: 4
+    IsInUse: 0
+  - Item: {fileID: 11400000, guid: f96b47e3e96e9c342b07e2021daa7910, type: 2}
+    Amount: 1
+    SlotID: 5
+    IsInUse: 0
+  - Item: {fileID: 11400000, guid: 94dc78eaab6ef3bbfb0e5dcc0f47bfd2, type: 2}
+    Amount: 1
+    SlotID: 6
+    IsInUse: 0
+  onInventoryChanged:
+    m_PersistentCalls:
+      m_Calls: []

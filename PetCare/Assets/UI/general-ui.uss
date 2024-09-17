@@ -1,0 +1,354 @@
+.panel {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    -unity-font: url("project://database/Assets/Arts/Fonts/Ubuntu/UbuntuNerdFont-Regular.ttf?fileID=12800000&guid=0475b4bda9ba13c41a6d1711232eb8db&type=3#UbuntuNerdFont-Regular");
+    -unity-font-definition: url("project://database/Assets/Arts/Fonts/Ubuntu/UbuntuNerdFont-Regular%20SDF.asset?fileID=11400000&guid=f1fcbc5b0433db941a0991bd7afe3702&type=2#UbuntuNerdFont-Regular SDF");
+    -unity-font-style: normal;
+}
+
+.main-button {
+    width: 156px;
+    height: 156px;
+    border-top-left-radius: 35%;
+    border-top-right-radius: 35%;
+    border-bottom-right-radius: 35%;
+    border-bottom-left-radius: 35%;
+    font-size: 40px;
+    background-color: rgb(239, 241, 245);
+    border-right-width: 0;
+    border-left-width: 0;
+    border-left-color: rgb(156, 160, 176);
+    border-right-color: rgb(156, 160, 176);
+    border-top-color: rgb(156, 160, 176);
+    border-bottom-color: rgb(156, 160, 176);
+    color: rgb(76, 79, 105);
+    -unity-font-style: bold;
+    -unity-background-scale-mode: scale-to-fit;
+    transition-duration: 0.5s, 0.1s;
+    transition-timing-function: ease-out-elastic, linear;
+    transition-property: scale, background-color;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-top-width: 0;
+    border-bottom-width: 10px;
+}
+
+.topleft {
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.topright {
+    align-items: flex-end;
+    height: 100%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.top {
+    max-height: 580px;
+    flex-direction: row;
+}
+
+.bottom {
+    flex-direction: column-reverse;
+}
+
+.item {
+    width: 130px;
+    height: 130px;
+    background-color: rgb(188, 192, 204);
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    font-size: 30px;
+    overflow: visible;
+}
+
+.main-button:active {
+    scale: 0.9 0.9;
+    background-color: rgb(229, 200, 144);
+}
+
+.arrowbox {
+    flex-grow: 1;
+    height: 34px;
+    max-height: 34px;
+    background-color: rgba(255, 255, 255, 0);
+    flex-direction: column;
+    align-items: center;
+    align-self: auto;
+    width: 90%;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    justify-content: flex-end;
+}
+
+.arrow {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(188, 188, 188, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.inv_shop_button {
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    background-color: rgb(172, 176, 190);
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    font-size: 50px;
+    -unity-font-style: bold;
+    width: 320px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out-elastic;
+    transform-origin: center;
+}
+
+.inv_shop_button:active {
+    scale: 1.1 1.1;
+}
+
+.inv_popout {
+    flex-grow: 1;
+    position: absolute;
+    width: 100%;
+    height: 55%;
+    bottom: 0;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    background-color: rgb(239, 241, 245);
+    translate: 0 100%;
+}
+
+.inv_popout_up {
+    transition-property: translate;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out-circ;
+}
+
+.scrim {
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0.76);
+    opacity: 0;
+    transition-duration: 0.15s;
+    scale: 1.5 1.5;
+}
+
+.scrim_faded {
+    opacity: 1;
+}
+
+.person {
+    width: 52%;
+    height: 70%;
+    position: absolute;
+    top: 18%;
+    left: 2%;
+    translate: -104% 0%;
+    transition-timing-function: ease-out-sine;
+    transition-duration: 0.5s;
+}
+
+.person_right {
+    translate: 0% 0%;
+}
+
+.person_speak {
+    translate: 0% -2%;
+}
+
+.explanation {
+    flex-grow: 1;
+    position: absolute;
+    background-color: rgb(239, 241, 245);
+    width: 700px;
+    height: auto;
+    align-self: flex-start;
+    right: 7%;
+    top: 18%;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    align-items: center;
+    justify-content: center;
+    translate: 111% 0;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    min-height: 300px;
+}
+
+.explaination_left {
+    translate: 0% 0%;
+}
+
+.person_img {
+    flex-grow: 1;
+    -unity-background-scale-mode: scale-to-fit;
+    width: 100%;
+    height: 90%;
+    max-height: 90%;
+    transition-duration: 0.1s;
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    translate: 0% 0%;
+}
+
+.person_img_speak {
+    translate: 0% -2%;
+}
+
+.arrow:active {
+    transition-timing-function: ease-out-elastic;
+    scale: 1.3 1.3;
+    transition-duration: 0.3s;
+}
+
+.speaking {
+    background-image: url("project://database/Assets/Arts/Icons/Interface/icons8-mikrofon-96.png?fileID=2800000&guid=fd64b15a09f52f741a0d6e232069a7b7&type=3#icons8-mikrofon-96");
+}
+
+.notspeaking {
+    background-image: url("project://database/Assets/Arts/Icons/Interface/icons8-kein-mikrofon-96.png?fileID=2800000&guid=adb15c444a1d09f49bb1c6c6d0b8f485&type=3#icons8-kein-mikrofon-96");
+}
+
+.bubblebuttons {
+    background-color: rgba(188, 188, 188, 0);
+    -unity-font-style: bold;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    font-size: 30px;
+    transition-property: scale;
+    transition-timing-function: ease-out-elastic;
+    transition-duration: 0.5s;
+}
+
+.bubblebuttons:active {
+    scale: 1.2 1.2;
+}
+
+.info-scrim {
+    flex-grow: 1;
+    scale: 1.2 1.2;
+    background-color: rgba(255, 230, 0, 0.49);
+    display: none;
+    position: absolute;
+    width: 200%;
+    height: 200%;
+}
+
+.info-scrim-blink {
+    display: flex;
+}
+
+.Item_Info_Stat {
+    font-size: 40px;
+    display: flex;
+    -unity-font-style: normal;
+    white-space: normal;
+    color: rgb(76, 79, 105);
+}
+
+.CoinPopout {
+    flex-grow: 1;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    scale: 0 0;
+    rotate: -10deg;
+}
+
+.CoinPopout_active {
+    scale: 1 1;
+    rotate: 0;
+    transition-duration: 1.5s, 1s;
+    transition-timing-function: ease-out-elastic, ease-out-bounce;
+    transition-property: scale, rotate;
+}
+
+.inv_popout_ani {
+    transition-property: translate;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-out-circ;
+}
+
+.item-counter {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 1px;
+    padding-right: 4px;
+    padding-bottom: 1px;
+    padding-left: 4px;
+    background-color: rgb(223, 225, 231);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    -unity-font-style: bold;
+    font-size: 51px;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    display: flex;
+    align-self: center;
+    flex-grow: 1;
+    -unity-text-align: middle-center;
+    min-width: 60px;
+}
+
+.button {
+    transition-property: scale;
+    transition-timing-function: ease-out-elastic;
+    transition-duration: 0.5s;
+}
+
+.button:active {
+    scale: 0.93 0.93;
+}

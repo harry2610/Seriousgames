@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c59db9a005c4a144aa586dfaf63f0a3, type: 3}
+  m_Name: Illness
+  m_EditorClassIdentifier: 
+  id: -7787822617723720429
+  title: Krankheit
+  icon: {fileID: 0}
+  description: Wie Krank dein Hund ist.
+  unit: '%'
+  minimumValue: 0
+  maximumValue: 100
+  initialValue: 0
+  changePerDay: -10
+  isTrainable: 0
+  conditionRanges:
+  - title: Krank
+    impulse: {fileID: 0}
+    tooltip: {fileID: 11400000, guid: 31c2531dbd431a74d86a5a0d53cc21de, type: 2}
+    minThreshold: 50
+    maxThreshold: 100

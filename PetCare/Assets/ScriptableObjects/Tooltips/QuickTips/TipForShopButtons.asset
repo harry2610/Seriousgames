@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e368a27ee98858a47b692e0bfe834834, type: 3}
+  m_Name: TipForShopButtons
+  m_EditorClassIdentifier: 
+  heading: "Shop ge\xF6ffnet!"
+  text: "Tippe auf ein Item um es zu kaufen. Es wird angezeigt wie viele Items du
+    noch kaufen kannst und wie viele M\xFCnzen das Item kostet."
+  id: 3711004109241899137
+  maxShowTimes: 1

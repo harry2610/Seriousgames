@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e173c114efdc164b8a8962149abc1d4, type: 3}
+  m_Name: WhyDogNeedSocialContacts
+  m_EditorClassIdentifier: 
+  question: Warum ist es wichtig, dass ein Hund soziale Kontakte zu anderen Hunden
+    hat?
+  answer1: Damit er lernt, freundlich zu sein und nicht aggressiv wird
+  answer2: "Damit er sich an andere Hunde gew\xF6hnt"
+  answer3: Damit er neue Tricks lernt
+  answer4: "Damit er den ganzen Tag besch\xE4ftigt ist"
+  correctAnswer: 1
+  explanation: 

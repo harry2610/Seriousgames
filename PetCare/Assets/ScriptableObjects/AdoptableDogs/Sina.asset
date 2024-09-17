@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4271178c756be2f41b026480be00fa49, type: 3}
+  m_Name: Sina
+  m_EditorClassIdentifier: 
+  givenName: Sina
+  breed: {fileID: 11400000, guid: 2f5cccb38a2020b499832589453706c1, type: 2}
+  description: "Ein neugieriger Hund, wenn er nicht gerade schl\xE4ft."
+  habits:
+  - pronouncedness: 100
+    trait: {fileID: 11400000, guid: ad099bfb1fd69ee41bad86d5f3917f60, type: 2}
+  - pronouncedness: 100
+    trait: {fileID: 11400000, guid: 0dc2a6f3c2fa60642a446234328b416e, type: 2}
+  - pronouncedness: 100
+    trait: {fileID: 11400000, guid: 9eaf270a753a16d4a80047c7a77e4ba5, type: 2}
+  commands: {fileID: 11400000, guid: 083e109befa37ac4bb894650255eb8de, type: 2}

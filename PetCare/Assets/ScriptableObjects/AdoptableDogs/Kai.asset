@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4271178c756be2f41b026480be00fa49, type: 3}
+  m_Name: Kai
+  m_EditorClassIdentifier: 
+  givenName: Kai
+  breed: {fileID: 11400000, guid: ea07c403025e61041a73955ffad10dc3, type: 2}
+  description: "Ein leicht aggressiver Hund, der gerne Gegenst\xE4nde kaputt macht."
+  habits:
+  - pronouncedness: 73.9
+    trait: {fileID: 11400000, guid: 9eaf270a753a16d4a80047c7a77e4ba5, type: 2}
+  - pronouncedness: 55.3
+    trait: {fileID: 11400000, guid: 8e0fa33b80a33ef468d125b9dbe1f24c, type: 2}
+  - pronouncedness: 100
+    trait: {fileID: 11400000, guid: 9b3a1642143270e48bcf2d4456fe4527, type: 2}
+  commands: {fileID: 11400000, guid: 083e109befa37ac4bb894650255eb8de, type: 2}

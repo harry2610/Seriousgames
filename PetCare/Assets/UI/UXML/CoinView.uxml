@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/shop-ui.uss?fileID=7433441132597879392&amp;guid=3c494f07f78beec4a980bdfb1e8f2467&amp;type=3#shop-ui" />
+    <ui:Label tabindex="-1" text="0000" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ShopListElementPrice" style="font-size: 60px; -unity-font-style: bold; -unity-text-align: middle-left; padding-right: 3%;" />
+    <ui:VisualElement style="flex-grow: 1; max-width: 30%; background-image: url(&quot;project://database/Assets/Arts/Icons/Interface/dogcoin.png?fileID=2800000&amp;guid=89bfab0f3d6ec8c419e295dd56ed671c&amp;type=3#dogcoin&quot;); -unity-background-scale-mode: scale-to-fit; scale: 1.4 1.4;" />
+</ui:UXML>

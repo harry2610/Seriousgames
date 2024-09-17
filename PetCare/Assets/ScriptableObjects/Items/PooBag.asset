@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3566d8fa93f065e4fbfa26130358b7cd, type: 3}
+  m_Name: PooBag
+  m_EditorClassIdentifier: 
+  id: -8164803821060183975
+  type: 0
+  title: Hundekotbeutel
+  icon: {fileID: 2800000, guid: 8346ba78f28eb93ac9b9b90a70196ec7, type: 3}
+  prefab: {fileID: 4952969007121210840, guid: 0d265bc1bd4832a4694453a482e8c84a, type: 3}
+  description: Entferne die ungewollten Hinterlassenschaften deines Hundes
+  stackLimit: 20
+  price: 5
+  conditionEffects: []
+  requireWiping: 0

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c64f2f6cc86e104f9fda27268efb059, type: 3}
+  m_Name: Give
+  m_EditorClassIdentifier: 
+  id: -6548352215860838853
+  title: Geben
+  icon: {fileID: 2800000, guid: cefa714cb058667498297098ff925cdb, type: 3}
+  description: 
+  points: 1
+  impulseOnEnd: {fileID: 11400000, guid: 3d7e4c864994cd84dae85ec733371ca1, type: 2}
+  isAbortable: 1

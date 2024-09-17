@@ -1,0 +1,267 @@
+﻿[00:00:00.000 --> 00:00:01.000]  Hallo.
+[00:00:01.000 --> 00:00:03.860]  Hallo.
+[00:00:03.860 --> 00:00:06.160]  Hi.
+[00:00:06.160 --> 00:00:16.780]  Anfangen mit den Fragen?
+[00:00:16.780 --> 00:00:17.800]  Oder wie wollt ihr das machen?
+[00:00:17.800 --> 00:00:46.400]  Ja, wir wollten vielleicht erstmal kurz uns vorstellen.
+[00:00:46.400 --> 00:00:54.400]  Und ja, dann können wir einfach kurz über das reden, was wir vorbereitet haben, würde ich sagen, oder?
+[00:00:54.400 --> 00:01:00.400]  Hört mich dahinter.
+
+[00:01:00.400 --> 00:01:07.400]  Genau, und ganz kurz noch am Anfang dürfen wir eine Tonaufnahme machen, damit wir es besser auswerten können?
+[00:01:07.400 --> 00:01:09.400]  Ja, das würde ich auch empfehlen.
+[00:01:09.400 --> 00:01:11.400]  Okay.
+
+[00:01:11.400 --> 00:01:21.400]  Ich hab gerade keine Webcam angeschlossen, deswegen bin ich ohne Bild.
+[00:01:21.400 --> 00:01:48.400]  Ja, so wollen wir anfangen? Okay, ja gut, dann stellen wir uns erstmal vor. Ich fange mal an.
+[00:01:48.400 --> 00:02:02.400]  Hallo, mein Name ist Vincent. Ich bin 20 Jahre alt und meine Hobbys sind, ja in letzter Zeit habe ich nicht mehr so viele, aber ich spiele auch gerne Videospiele, ja.
+[00:02:02.400 --> 00:02:07.400]  Fußball mag ich auch und vielleicht, wie man sehen kann, bin ich auch Star Wars Fan.
+[00:02:07.400 --> 00:02:16.400]  Gut, ich halte es kurz. Ich bin 26 Jahre alt, studiere an der TU, mache gerne Sport in meiner Freizeit.
+[00:02:16.400 --> 00:02:26.600]  Ja, hallo, ich bin der Nikolas. Ich bin 24 Jahre alt und ich habe eine Katze als Haustier,
+[00:02:26.600 --> 00:02:29.440]  die aber gerade eben gegangen ist, kurz bevor wir angefangen haben.
+[00:02:29.440 --> 00:02:45.960]  Ja, ich bin der Christian. Moment, könnt ihr mich hören? Ja, ich bin 26 Jahre alt und,
+[00:02:45.960 --> 00:02:57.400]  ja, bin sehr technikaffin, wenn es um Hobbys geht. Gerne Algorithmen, bin auch gerne kreativ unterwegs, ja.
+[00:02:57.400 --> 00:03:11.640]  Ich bin die Lotta. Ich bin 10 Jahre alt und meine Hobbys sind Klettern in der Lappalm. Und ich
+[00:03:11.640 --> 00:03:23.720]  war auch sehr gerne Waysport, das treffe ich mit meinen Freunden. Ich bin 7 Jahre alt und
+[00:03:23.720 --> 00:03:36.880]  ich heiße Käthe und meine Hobbys sind Ballett, Gitarre und Chor und mich mit meinen Freunden
+[00:03:36.880 --> 00:03:39.880]  treffen und Chor.
+
+[00:03:40.880 --> 00:03:55.880]  Ja, okay, ich würde sagen, wir steigen dann auch schon direkt ins Thema ein und zwar unser großes Thema, wir wollen ja ein Spiel entwickeln.
+[00:03:55.880 --> 00:04:06.880]  Unser großes Thema ist Haustiere. Da können wir auch gleich mal fragen, hattet ihr schon mal ein Haustier oder wollt ihr überhaupt ein Haustier?
+[00:04:07.880 --> 00:04:11.880]  Wir hatten eigentlich noch nie ein Haustier, aber wir würden es sehr, sehr gerne jetzt haben.
+
+[00:04:11.880 --> 00:04:17.880]  Seid ihr denn eher der Hundetyp oder der Katzentyp?
+[00:04:17.880 --> 00:04:19.880]  Ich bin Hundetyp eher.
+[00:04:19.880 --> 00:04:20.880]  Hundetyp.
+[00:04:20.880 --> 00:04:22.880]  Das passt gut.
+[00:04:22.880 --> 00:04:24.880]  Genau richtig.
+
+[00:04:24.880 --> 00:04:34.880]  Okay, ja, warum wünscht ihr euch denn überhaupt ein Haustier? Was stellt ihr euch darunter vor?
+[00:04:35.880 --> 00:04:41.880]  Dass man mit dem Haustier in die Gasse gehen kann, mit dem Hund oder so.
+[00:04:41.880 --> 00:04:46.880]  Dass man halt kuscheln kann mit dem. Und spielen.
+
+[00:04:46.880 --> 00:04:53.880]  Ja. Okay. Habt ihr eure Eltern denn schon mal gefragt nach einem Haustier?
+[00:04:53.880 --> 00:04:56.880]  Ja, schon sehr oft. Ganz oft.
+[00:04:56.880 --> 00:04:59.880]  Und wie war bis jetzt immer die Antwort?
+[00:04:59.880 --> 00:05:01.880]  Nein.
+
+[00:05:02.880 --> 00:05:05.880]  Könnt ihr euch vielleicht vorstellen, warum die Antwort Nein war?
+[00:05:05.880 --> 00:05:10.880]  Ja, weil sie denken, dass wir uns dann nach einer Zeit nicht mehr drum kümmern.
+[00:05:10.880 --> 00:05:21.880]  Und uns, dass sie denken, dass jedes Haustier so leben kann, wie es auch will.
+[00:05:21.880 --> 00:05:27.880]  Ja, das sind Gründe auf jeden Fall.
+
+[00:05:30.880 --> 00:05:39.880]  Wir bleiben jetzt erst mal beim Thema Hunde. Und da wollte ich fragen, was ist denn euer Lieblingshund oder eure Lieblingsrassernhunde? Habt ihr da schon welche?
+[00:05:39.880 --> 00:05:45.880]  Huskys oder Labrador oder so.
+[00:05:45.880 --> 00:05:46.880]  Okay.
+[00:05:46.880 --> 00:05:48.880]  Zwergspitze.
+
+[00:05:53.880 --> 00:06:02.800]  Ich hab mal ein paar Bilder von Hunden rausgesucht. Vielleicht könnt ihr mir mal sagen, welchen davon euch am liebsten gefällt.
+[00:06:02.800 --> 00:06:04.800]  Moment. So.
+[00:06:04.800 --> 00:06:09.880]  Könnt ihr das sehen?
+[00:06:09.880 --> 00:06:12.760]  Okay, wie findet ihr diesen Hund?
+[00:06:12.760 --> 00:06:15.560]  Der ist sehr, sehr süß.
+[00:06:15.560 --> 00:06:18.440]  Oh.
+[00:06:18.440 --> 00:06:20.440]  Den finde ich richtig süß.
+[00:06:20.440 --> 00:06:23.720]  Für mich wäre das...
+[00:06:24.720 --> 00:06:25.720]  Der Hund.
+[00:06:25.720 --> 00:06:29.720]  Ist schon süß. Was ist mit dem anderen? Der ist etwas größer?
+[00:06:29.720 --> 00:06:32.720]  Den finde ich richtig, richtig toll.
+[00:06:32.720 --> 00:06:35.720]  Ja, du hast süße Augen.
+[00:06:35.720 --> 00:06:37.720]  Was ist mit so einem Hund?
+[00:06:37.720 --> 00:06:40.720]  So was mag ich nicht so.
+[00:06:40.720 --> 00:06:42.720]  Nicht so gern.
+[00:06:42.720 --> 00:06:45.720]  Okay. Was ist mit dem?
+[00:06:45.720 --> 00:06:47.720]  Richtig süß.
+[00:06:47.720 --> 00:06:49.720]  Ja.
+[00:06:49.720 --> 00:06:51.720]  Der ist kleiner, der ist schneller.
+[00:06:52.720 --> 00:06:55.720]  Ich finde den, weil er so klein ist, halt ein bisschen klein mit dem kann.
+[00:06:55.720 --> 00:06:59.720]  Und dann vielleicht nicht so viel machen. Aber er ist schon süß.
+[00:06:59.720 --> 00:07:06.720]  Der ist süß.
+[00:07:17.720 --> 00:07:21.720]  Ich mag ihn gerne so bis zum Knie. Bisschen größer schon.
+[00:07:21.720 --> 00:07:28.720]  Bis zum Knie. Auch kuschelig, aber dass man halt auch mit ihm spielen kann.
+[00:07:28.720 --> 00:07:30.720]  Also irgendwie so beides kann.
+[00:07:30.720 --> 00:07:32.720]  Was ist mit so einem Hund?
+[00:07:32.720 --> 00:07:38.720]  Der? Ich finde, der sieht so süß aus.
+[00:07:38.720 --> 00:07:40.720]  Ich finde ihn auch süß.
+[00:07:40.720 --> 00:07:45.720]  Es gibt viele Leute, die finden den süß, aber es gibt auch viele Leute, die finden den eher nicht so süß.
+[00:07:45.720 --> 00:07:51.160]  Ich finde ihn gut. Ich finde ihn zu wenig Talent.
+[00:07:51.160 --> 00:07:55.160]  Ja. Mit dem.
+[00:07:55.160 --> 00:07:57.960]  Der sieht richtig, richtig süß aus.
+[00:07:57.960 --> 00:08:04.360]  Der ist süß, ein bisschen zu groß vielleicht.
+[00:08:04.360 --> 00:08:06.360]  Groß?
+[00:08:06.360 --> 00:08:08.360]  So was.
+[00:08:08.360 --> 00:08:11.960]  Der ist nicht groß.
+[00:08:11.960 --> 00:08:14.520]  Mit dem. Der ist gut.
+[00:08:15.520 --> 00:08:17.520]  Der ist kuschelig, ne? Ja.
+[00:08:17.520 --> 00:08:20.520]  Ich finde, der sieht ein bisschen spuckig aus.
+[00:08:20.520 --> 00:08:21.520]  Ja.
+[00:08:21.520 --> 00:08:29.520]  Das könnte vielleicht viel Arbeit beim, wenn man den baden muss.
+[00:08:29.520 --> 00:08:31.520]  Das könnte vielleicht direkt sein.
+[00:08:31.520 --> 00:08:33.520]  Was ist mit dem?
+[00:08:33.520 --> 00:08:37.520]  So einen würde ich mir auch für mich vorstellen. So einen Husky.
+[00:08:37.520 --> 00:08:38.520]  Ja.
+[00:08:38.520 --> 00:08:41.520]  Nee, ich finde den ein bisschen zu groß.
+
+[00:08:42.520 --> 00:08:46.520]  Hättet ihr Angst vielleicht vor solchen großen Hunden?
+[00:08:46.520 --> 00:08:50.520]  Nein
+[00:08:46.520 --> 00:08:50.520]  Nur weil du ihn kennst, ne?
+[00:08:50.520 --> 00:08:59.520]  Ich? Ich hätte ein bisschen Angst, wenn der so auf mich zu rennt.
+[00:08:59.520 --> 00:09:01.520]  Da hätte ich ein bisschen Angst.
+[00:09:01.520 --> 00:09:02.520]  Ja.
+[00:09:02.520 --> 00:09:07.520]  Die rennt mit vollem Karacho auf mich zu.
+[00:09:07.520 --> 00:09:10.520]  Die zwei weißt du auch.
+[00:09:10.520 --> 00:09:25.520]  Was ist mit dem hier? Kurzer? Kurzer finde ich nicht so gut. Ja. Okay. Ja. Ich mag den aus der Hose mehr. Okay. Ja, das war's auch schon.
+[00:09:25.520 --> 00:09:35.520]  Also das war's auch schon mit den Hundefotos. 
+
+[00:09:35.520 --> 00:09:44.520]  Okay. Ihr habt euch jetzt schon einige Hunde angeschaut. Hättet ihr euch denn schon einen Namen überlegt, wie ihr so einen Hund nennen könntet?
+[00:09:44.520 --> 00:09:47.520]  Nee.
+[00:09:47.520 --> 00:09:51.520]  Die Hunde heißen ja Max oder so.
+[00:09:51.520 --> 00:09:53.520]  Ja.
+[00:09:53.520 --> 00:09:56.520]  Nee.
+
+[00:09:56.520 --> 00:10:03.520]  Okay, das macht ihr dann [Hund Namen geben], wenn ihr den Hund schon gesehen habt oder wenn ihr dann wisst, welchen Hund ihr nehmen würdet?
+[00:10:03.520 --> 00:10:04.520]  Ja.
+
+[00:10:04.520 --> 00:10:10.520]  Und gibt's dann auch irgendwelche besonderen Tricks oder so, die ihr dem Hund dann beibringen wollt?
+[00:10:10.520 --> 00:10:12.520]  Und was der Hund können soll?
+[00:10:12.520 --> 00:10:14.520]  Ja.
+[00:10:14.520 --> 00:10:16.520]  So  ein Leckerli aus der Luft fangen.
+[00:10:16.520 --> 00:10:26.520]  Nee, bei mir, das wenn ich irgendwas sage, dass er dann hier so auf mich springt, das hatte ich mal im Urlaub gesehen und das fand ich gut.
+[00:10:29.520 --> 00:10:38.520]  Er kann den dann sofort tragen. Wenn er mal in die Straße kommt, kann man das sagen, dann springt er drauf und dann kann man ihn über die Straße tragen.
+[00:10:38.520 --> 00:10:40.520]  Aber das geht nur mit kleinen Hunden.
+[00:10:40.520 --> 00:10:43.520]  Deswegen wünsche ich mir einen kleinen Hund.
+[00:10:43.520 --> 00:10:47.520]  Ja, das geht mit denen natürlich besser dann.
+
+[00:10:47.520 --> 00:10:55.520]  Gibt es denn irgendetwas, was ihr speziell gerne über Hunde lernen würdet dann?
+[00:10:58.520 --> 00:11:14.120]  Also, vielleicht gerne lernen, ob die, also, was es noch so für Tricks gibt, außer halt die normalen Sitzplatzpose oder so. Und ja.
+[00:11:14.120 --> 00:11:26.120]  Also, ich finde, da könnte ich mir dein Rennen abgucken, weil Hunde rennen ja auch ziemlich schnell.
+[00:11:26.120 --> 00:11:32.120]  Da kann man sich das gut abgucken, wie die rennen, da könnte man das mal austesten.
+[00:11:32.120 --> 00:11:34.120]  Willst du auf allen vielen Rennen?
+[00:11:34.120 --> 00:11:36.120]  Nein!
+[00:11:36.120 --> 00:11:40.120]  Auf zwei Beinen.
+
+[00:11:55.120 --> 00:12:03.120]  Habt ihr euch denn schon mal Gedanken gemacht, was für Aufgaben jeden Tag da anfallen würden, wenn man sich richtig gut um den Hund kümmern möchte?
+[00:12:03.120 --> 00:12:17.120]  Also, man müsste halt Futter geben und wenn er längere Haare hat, dann müsste man ihn vielleicht erst mal kämmen oder waschen.
+[00:12:17.120 --> 00:12:25.120]  Und man müsste halt immer Gassi gehen. Man müsste den Hund auch nicht, also, dass er keine Langeweile hat.
+[00:12:25.120 --> 00:12:30.120]  Vor allem bei Welpen ist das sehr häufig.
+
+[00:12:30.120 --> 00:12:34.120]  Ja, wie oft denkt ihr denn, muss man Gassi gehen? So pro Tag?
+[00:12:34.120 --> 00:12:38.120]  Ja, dreimal pro Tag, glaube ich.
+[00:12:43.120 --> 00:12:45.120]  Mhm.
+[00:12:45.120 --> 00:12:55.120]  Morgens, das wäre dann mit der Schule ein bisschen schwer, Mittags und Abends.
+[00:12:55.120 --> 00:13:03.520]  Mittags kann ich machen, da bin ich nicht da. Äh, doch, da bin ich da.
+[00:13:03.520 --> 00:13:08.120]  Und Abends kann ich...
+
+[00:13:08.120 --> 00:13:11.920]  Und was würdet ihr machen, wenn der Hund krank wird?
+[00:13:12.920 --> 00:13:16.920]  Dann muss man zum Tierarzt gehen oder halt, ja.
+
+[00:13:18.920 --> 00:13:23.920]  Wie denkt ihr, findet man raus, ob er krank ist?
+[00:13:23.920 --> 00:13:36.920]  Wenn er irgendwie nicht mehr frisst oder wenn er halt zum Beispiel in irgendwas komisch ist, was er sonst nicht macht.
+[00:13:36.920 --> 00:13:43.320]  Oder wenn er schlapper ist als er sonst, das sollte man doch schon checken beim Tierarzt.
+[00:13:43.320 --> 00:13:48.520]  Da sollte man dann hingehen.
+
+[00:13:48.520 --> 00:13:54.320]  Und es kann ja auch mal vorkommen, dass der Hund nicht auf euch hört, oder?
+[00:13:54.320 --> 00:13:58.920]  Was würdet ihr dann machen? Oder wie denkt ihr, muss man den Hund am besten erziehen?
+[00:13:59.920 --> 00:14:04.920]  Ähm, aber vielleicht mal zur Hundeschule gehen. Und ja.
+[00:14:04.920 --> 00:14:23.920]  Und auch viele Tricks vielleicht, da wo man die (Hunde-) Leinen und so kriegt, kann man auch nachfragen, ob man vielleicht ein paar Tricks kennt, die man dem Hund beibringen kann, wenn man andere Tricks hat, die man beibringen kann.
+[00:14:25.920 --> 00:14:30.160]  Oder halt irgendwas nachfragen, was man dann machen muss.
+
+[00:14:33.200 --> 00:14:35.800]  Das sind schon einige Sachen, die dann anfallen, oder?
+[00:14:35.800 --> 00:14:38.320]  Also einiges an Arbeit, das man reinstecken muss.
+[00:14:38.320 --> 00:14:40.720]  Würdet ihr euch das dann persönlich zutrauen?
+[00:14:40.720 --> 00:14:44.800]  Euch jeden Tag, jahrelang um ein Haustier zu kümmern?
+[00:14:44.800 --> 00:14:48.000]  Ja?
+[00:14:48.000 --> 00:14:51.880]  Okay, interessant.
+
+[00:15:00.880 --> 00:15:13.880]  Wie denkst du, kriegt ein Hund Gefühle aus? Also wann denkst du, ist der Hund glücklich oder traurig?
+[00:15:13.880 --> 00:15:16.880]  Oder wie schätzt du Hund am besten ein?
+[00:15:17.880 --> 00:15:21.880]  Also wenn er jault ist er traurig.
+[00:15:21.880 --> 00:15:25.880]  Wenn er entspannt redet, ist er glaub ich glücklich.
+[00:15:25.880 --> 00:15:33.880]  Wenn er viel spielt oder viel rumrennt, ist er glaub ich auch glücklich.
+[00:15:33.880 --> 00:15:35.880]  Wenn er mit anderen Hunden zusammen sein kann.
+[00:15:35.880 --> 00:15:39.880]  Traurig? Nee, weiß ich nicht.
+[00:15:44.880 --> 00:15:53.880]  Traurig ist er, sauer weiß ich nicht. Traurig ist er, wenn er jault. Aber sauer, mhm.
+[00:15:53.880 --> 00:15:54.880]  Weiß nicht.
+
+[00:15:54.880 --> 00:15:59.880]  Vielleicht Körpersprache? Müsst ihr vielleicht etwas über die Körpersprache des Hundes?
+[00:15:59.880 --> 00:16:10.880]  Also was würde es denn zum Beispiel bedeuten, wenn der Hund seinen Schwanz einzieht, also zwischen den Beinen klemmt und zurückhaltend ist? Was meint ihr, könnte das bedeuten?
+[00:16:12.880 --> 00:16:18.880]  Das er Angst hat? Ja, Angst. Also sich bedroht fühlt? Ja.
+
+[00:16:18.880 --> 00:16:22.880]  Und wie verhält man sich in so einer Situation?
+[00:16:22.880 --> 00:16:31.880]  Eher, also so, dass man sich eher zurückzieht, vielleicht.
+[00:16:31.880 --> 00:16:41.880]  Und vielleicht manche Hunde wollen dann eher angreifen, das ist dann glaub ich auch vom Hund abhängig.
+[00:16:41.880 --> 00:16:44.880]  Was dann passiert?
+[00:16:44.880 --> 00:17:01.880]  Ja, man sollte ihn dann am besten beruhigend lassen. Also nicht einfach rauf zu gehen, sondern dass der Hund selber entscheiden kann, ob er gestreichelt werden möchte oder zurückkommen möchte.
+[00:17:01.880 --> 00:17:07.880]  Also niemals den Hund bedrängen. Also das wäre vielleicht so wichtig.
+
+[00:17:07.880 --> 00:17:14.880]  Mhm. Wisst ihr denn, was man besonders bei Welpen beachten sollte?
+[00:17:14.880 --> 00:17:22.880]  Dass die Welpen sich halt wohlfühlen, vor allem.
+[00:17:22.880 --> 00:17:34.880]  Weil, dass sie halt sich dann zum Beispiel auch nicht auf einen eingewöhnen.
+[00:17:34.880 --> 00:17:47.680]  Und ja, dass man denen auch vielleicht Futter, denen nicht, also halt, dass man viel Sport macht mit denen.
+[00:17:47.680 --> 00:17:56.080]  Und dass man die Welpen halt auch erstmal mit Tricks nicht zu überfordert. Ja.
+[00:17:56.080 --> 00:18:02.480]  Ja, also ganz wichtig bei Welpen, die können einen noch nicht so gut einschätzen.
+[00:18:02.480 --> 00:18:07.840]  Also da muss man dann auch gut damit umgehen können.
+[00:18:07.840 --> 00:18:14.600]  Also, es gibt Hunde, die haben das schon gelernt, die können dann auch ganz gut mit Kindern umgehen.
+[00:18:14.600 --> 00:18:18.120]  Aber bei Welpen muss man dann halt auch aufpassen.
+[00:18:18.120 --> 00:18:22.080]  Die können sich manchmal unerwartet verhalten, deswegen.
+[00:18:22.080 --> 00:18:24.400]  Ja, okay.
+
+[00:18:26.400 --> 00:18:39.400]  Kleiner Themawechsel. Habt ihr Handys? Dürft ihr auf den Handys spiele spielen?
+[00:18:39.400 --> 00:18:41.400]  Ja. Ich darf.
+[00:18:39.400 --> 00:18:41.400]  Ich hab keins.
+
+[00:18:39.400 --> 00:18:41.400]  Und wie lange pro Tag? Gibt's da eine Begrenzung?
+[00:18:46.400 --> 00:18:56.000]  Aber, ähm, meine Eltern sagen halt öfters, ne, leg mal das Handy weg und dann, ja, sollte ich es mir auch nicht wieder nehmen, sonst kriege ich dann Ärger.
+
+[00:19:05.200 --> 00:19:18.240]  Hast du schonmal ein Spiel gespielt, wo man sich virtuell um ein Tier/Haustier wie einen Hund kümmert?
+[00:19:05.200 --> 00:19:18.240]  Also, ich hab ein Spiel, da kümmert man sich um mein, oh, mein Tier dort. Aber so ein Haustier hab ich mich noch nie so gekümmert.
+[00:19:18.240 --> 00:19:20.240]  In einem virtuellen Spiel.
+
+[00:19:33.600 --> 00:19:40.600]  Okay. Könntest du es dir vorstellen, da spielend zu lernen, wie man sich am Besten um einen Hund kümmert und was für Aufgaben da anfallen?
+[00:19:33.600 --> 00:19:40.600]  Also, ja, ich glaube, das wär ganz cool. Dann könnte man vielleicht dann das lernen.
+[00:19:40.600 --> 00:19:51.600]  Und dann könnte man wissen, was man alles draufhaben muss, wenn man dann Hund bekäme oder Katze oder Kaninchen, was auch immer.
+[00:19:51.600 --> 00:19:55.600]  Mhm. Könnte man besser abschätzen dann oder?
+[00:19:56.600 --> 00:19:57.600]  Ja.
+
+[00:19:57.600 --> 00:20:03.600]  Gut. Gibt's sonst noch Fragen?
+[00:20:03.600 --> 00:20:13.600]  Ja, genau. Was würdest du denn gerne, wenn du so ein Spiel hättest, in dem du dich um einen Hund kümmern könntest, was würdest du da gerne machen?
+[00:20:14.600 --> 00:20:22.520]  Dann vielleicht, dass man sich, zum Beispiel, wenn man das falsche Futter gibt oder so, dass es dann dem Haustier schlecht geht. Und halt, dass man dann sieht, was man hat man falsch gemacht,
+[00:20:29.080 --> 00:20:37.400]  dass man es dann richtig machen kann. Und, ähm, dass man halt auch den, also, dass dann halt auch,
+[00:20:37.400 --> 00:20:43.880]  man erreicht dann zum Beispiel irgendwas, wenn man dem Tier was Gutes getan hat oder so.
+[00:20:43.880 --> 00:20:55.000]  Und ja, dass man dann halt auch jedes, halt, das Tier pflegen muss und mit dem Gassi gehen und alles.
+[00:20:55.000 --> 00:21:03.880]  Und wenn's ausbüchst, muss man's wieder einsammeln oder so. Ja. Und sowas da gelernt.
+
+[00:21:04.880 --> 00:21:09.880]  Was könntet ihr euch denn als Belohnung zum Beispiel vorstellen, wenn man sich gut um den Hund kümmert?
+[00:21:09.880 --> 00:21:21.880]  Ähm, vielleicht die Münzen oder Diamanten oder irgendwas, dass man dann zum Beispiel mit den Münzen kann man dann wieder gutes Futter kaufen oder so.
+[00:21:21.880 --> 00:21:35.880]  Dann kann man dadurch wieder das Nächste erreichen oder so. Und, ähm, ja, dass man dann halt sich zum Beispiel nochmal einen Haustier dazuholen kann oder so. Ja.
+
+[00:21:35.880 --> 00:21:46.880]  Ähm, ich würde euch gerne noch ein Spiel vorstellen, was etwas in die Richtung geht, was wir machen. Ich weiß nicht, kennt ihr Nintendo?
+[00:21:46.880 --> 00:21:48.880]  Äh, ja.
+
+[00:21:48.880 --> 00:21:55.880]  Habt ihr schon mal irgendein Nintendo-Spiel oder so gespielt? Ja, bei der Freundin.
+[00:21:55.880 --> 00:22:03.880]  Ähm, warte, ich... Ich weiß nämlich noch, was Nintendo spielt.
+[00:22:03.880 --> 00:22:09.880]  Könnt ihr das sehen? Also, es gibt ein Spiel von Nintendo, das kam schon vor ein paar Jahren raus.
+[00:22:09.880 --> 00:22:17.880]  Da ging's auch darum, dass man sich um Hunde kümmert. Und ich hab hier ein paar Spielszenen rausgesucht und die würde ich euch mal vorstellen.
+[00:22:17.880 --> 00:22:24.880]  Also, generell kann man halt einfach verschiedene Hunde haben und man muss sich um die kümmern.
+[00:22:24.880 --> 00:22:27.880]  Und es gibt verschiedene Sachen, die man in diesem Spiel machen kann.
+[00:22:27.880 --> 00:22:32.880]  Zum Beispiel kann man mit den Hunden spielen und mit den Hunden generell einfach interagieren.
+[00:22:32.880 --> 00:22:35.880]  Oder man kann auch mit Hunden Gassi gehen.
+[00:22:35.880 --> 00:22:42.880]  Und das Ganze, das Gerät, auf dem es gemacht wurde, hat ein Touchscreen und da muss man quasi so die Leine halten.
+[00:22:42.880 --> 00:22:55.000]  Und generell kann man mit Hunden zum Beispiel Bälle werfen spielen, wo die den auffangen sollen und zurückbringen.
+[00:22:55.000 --> 00:23:02.000]  Und man muss sich auch um den Hund kümmern. Zum Beispiel, man muss ihn waschen. Das ist auch ein Element des Spiels.
+
+[00:23:02.000 --> 00:23:12.000]  Ich hab euch ja jetzt so ein paar Bilder davon gezeigt. Wie fandet ihr die Eindrücke davon? Würdet ihr euch vorstellen können, dieses Spiel selber mal zu spielen? Habt ihr Interesse daran?
+[00:23:13.000 --> 00:23:15.000]  Ich fand die Bilder ganz cool.
+[00:23:15.000 --> 00:23:22.000]  Und ja, also mit denen, dass man Gassi gehen kann, spielen kann, sich um die kümmern kann.
+[00:23:22.000 --> 00:23:30.000]  Und das Ganze ganz gut.
+[00:23:30.000 --> 00:23:44.240]  Gibt es sonst noch irgendjemand, der Fragen hat?
+[00:23:44.240 --> 00:23:53.120]  Ich denke, dann sind wir soweit durch. Vielen Dank euch beiden, gell?
+[00:23:53.120 --> 00:23:57.120]  Vielen Dank, dass ihr die Beantwortung gemacht habt.
+[00:23:57.120 --> 00:24:01.120]  Ja, ja, vielen, vielen Dank.
+[00:24:01.120 --> 00:24:05.120]  Das war hilfreich.
+[00:24:05.120 --> 00:24:09.120]  Echt? Super.
+[00:24:09.120 --> 00:24:13.120]  Wollt ihr dann jetzt eigentlich noch mit mir irgendwas besprechen?
+[00:24:13.120 --> 00:24:17.120]  Ja, wir können schon noch kurz Updates geben.
+[00:24:17.120 --> 00:24:21.120]  Okay, gut. Dann könnt ihr raus.
+[00:24:22.120 --> 00:24:24.120]  Ciao. Tschüss.
+[00:24:24.120 --> 00:24:26.120]  Tschüss.
+[00:24:26.120 --> 00:24:43.240]  Ciao.

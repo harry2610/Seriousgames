@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de4bf4eb251ae8b44925443c6a37e0a2, type: 3}
+  m_Name: StartGameNormal
+  m_EditorClassIdentifier: 
+  title: Normal
+  description: "Wenige Startgegenst\xE4nde und weniger Geld."
+  coins: 60
+  coinsPerDay: 30
+  items:
+  - {fileID: 11400000, guid: 11e0ff0c1e73a871c840957adcd3d895, type: 2}
+  - {fileID: 11400000, guid: c844623171e829c4ea1d0abd56ea9c41, type: 2}
+  - {fileID: 11400000, guid: dca8bd075fe059cb9b2a236d3d2940a3, type: 2}

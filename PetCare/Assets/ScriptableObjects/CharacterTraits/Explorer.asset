@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f77d68a9ccb7e9a4f86edcf3ac5aa0e9, type: 3}
+  m_Name: Explorer
+  m_EditorClassIdentifier: 
+  id: 399451092484584509
+  title: Erkunder
+  icon: {fileID: 2800000, guid: 3ca8bf353c8aee943bd72c983dfa57a4, type: 3}
+  description: 
+  conditionModifier:
+    thirst: 0
+    hunger: 0
+    entertainment: 0
+    aggressiveness: 0
+  triggeringActivities:
+  - trigger:
+      rid: 4756923079345831936
+    activity: {fileID: 11400000, guid: eeebb6cf0ed4f6b428c38ec0245c3040, type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: 4756923079345831936
+      type: {class: Boredom, ns: Dog, asm: Assembly-CSharp}
+      data:
+        threshold: 1
+        strength: 1

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66a754308fe2bb0448f5940b659e7630, type: 3}
+  m_Name: DefaultCommands
+  m_EditorClassIdentifier: 
+  commands:
+  - activity: {fileID: 11400000, guid: 41123bc3cc3e5d044959108522a19657, type: 2}
+    phrases: '[name]'
+    rehearsed: 50
+  - activity: {fileID: 11400000, guid: d4d5f55ff0dbe624b804b39fd4c03584, type: 2}
+    phrases: sitz
+    rehearsed: 50
+  - activity: {fileID: 11400000, guid: 15049f9ff1d89fa4b8d5f405d8ec1a65, type: 2}
+    phrases: platz
+    rehearsed: 50
+  - activity: {fileID: 11400000, guid: 58c1c85fe56c46e4fa4130692ecdba14, type: 2}
+    phrases: aufstehen
+    rehearsed: 50
+  - activity: {fileID: 11400000, guid: 02cbde6277f3ab34b81cc6e4089a5bf1, type: 2}
+    phrases: aus
+    rehearsed: 50
+  - activity: {fileID: 11400000, guid: 8579b5f6a0d7b8249b8451b8d5801ec0, type: 2}
+    phrases: gib pfote
+    rehearsed: 50
+  - activity: {fileID: 11400000, guid: bd516cc3e86e4254d9fd8dbe3545f1ad, type: 2}
+    phrases: lass das
+    rehearsed: 80

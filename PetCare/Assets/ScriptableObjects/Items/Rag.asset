@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3566d8fa93f065e4fbfa26130358b7cd, type: 3}
+  m_Name: Rag
+  m_EditorClassIdentifier: 
+  id: 2000410826604307220
+  type: 5
+  title: Lappen
+  icon: {fileID: 2800000, guid: 4df2a3cb0d99c39ebbf7f2e19db8452e, type: 3}
+  prefab: {fileID: 8118086598735988978, guid: 6e17abf6d5d3ec60b8276ac05d17df76, type: 3}
+  description: Entferne die ungewollten Hinterlassenschaften deines Hundes
+  stackLimit: 10
+  price: 20
+  conditionEffects: []
+  requireWiping: 1

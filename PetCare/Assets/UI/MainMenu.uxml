@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/main-menu.uss?fileID=7433441132597879392&amp;guid=30584fda57680f44eb1c733120099237&amp;type=3#main-menu" />
+    <ui:VisualElement name="Panel" class="panel" style="flex-grow: 1;">
+        <ui:VisualElement name="Container" class="menu" style="flex-grow: 1;">
+            <ui:VisualElement name="Logo" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UI/images/logo1.png?fileID=2800000&amp;guid=cc2bf8c24b44d8d41aea3ef7ed8a032c&amp;type=3#logo1&quot;); -unity-background-scale-mode: scale-to-fit; min-height: 500px;" />
+            <ui:Button text="Fortsetzen" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Continue" class="unity-button menu_button" />
+            <ui:Button text="Einstellungen" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Settings" class="menu_button" />
+            <ui:Button text="Beenden" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Exit" class="menu_button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

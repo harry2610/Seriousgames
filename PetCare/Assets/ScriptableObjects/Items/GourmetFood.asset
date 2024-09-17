@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be1a945d6943a24478c5e325bab4adff, type: 3}
+  m_Name: GourmetFood
+  m_EditorClassIdentifier: 
+  id: -5423359272154068593
+  type: 0
+  title: Gourmet Futter
+  icon: {fileID: 2800000, guid: 865353224220f9825b045a2df7e3a20b, type: 3}
+  prefab: {fileID: 3494039614716279270, guid: aef45be52ef6fd1bfba2b71fa2b06407, type: 3}
+  description: "Teures Futter. Nutze es, um deinen Hund zu f\xFCttern."
+  stackLimit: 10
+  price: 100
+  conditionEffects:
+  - condition: {fileID: 11400000, guid: 6deabd83d51a9d6489744a3a03648ebb, type: 2}
+    modifier: 500
+  - condition: {fileID: 11400000, guid: 6c0ebae11ac685241a10bb7ba2866376, type: 2}
+    modifier: 0.0001
+  - condition: {fileID: 11400000, guid: cb6d4b80c4bdbda418457385072c1f17, type: 2}
+    modifier: 0.0001
+  bowlType: 1

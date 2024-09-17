@@ -1,0 +1,391 @@
+Label.header {
+    background-color: rgb(20, 106, 204);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+}
+
+Button {
+    border-left-color: rgb(13, 66, 128);
+    border-right-color: rgb(13, 66, 128);
+    border-top-color: rgb(13, 66, 128);
+    border-bottom-color: rgb(13, 66, 128);
+    background-color: rgb(20, 106, 204);
+    border-bottom-width: 3px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-left-width: 0;
+    height: 32px;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    -unity-font-style: bold;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+Button.primary {
+    background-color: rgb(204, 120, 20);
+    border-left-color: rgb(128, 76, 13);
+    border-right-color: rgb(128, 76, 13);
+    border-top-color: rgb(128, 76, 13);
+    border-bottom-color: rgb(128, 76, 13);
+}
+
+Button.icon {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -unity-background-image-tint-color: rgb(20, 106, 204);
+}
+
+Button:active {
+    border-bottom-width: 1px;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.button-group {
+    flex-direction: row;
+    align-self: stretch;
+    flex-wrap: nowrap;
+}
+
+.button-group Button {
+    flex-grow: 1;
+    width: 64px;
+}
+
+.right-connect {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-right: 0;
+    border-right-width: 0;
+}
+
+.left-connect {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: 0;
+    border-left-width: 0;
+}
+
+.root-screen {
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+Button.arrow-left {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -unity-background-image-tint-color: rgb(20, 106, 204);
+    background-image: url("project://database/Assets/Arts/Icons/Buttons/ArrowLeft.png?fileID=2800000&guid=d0505737fe73d684aaaabfb818132901&type=3#ArrowLeft");
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+Button.arrow-left:active {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -unity-background-image-tint-color: rgb(20, 106, 204);
+    background-image: url("project://database/Assets/Arts/Icons/Buttons/ArrowLeftPressed.png?fileID=2800000&guid=1bd1fb7536d0de145b3af88503141929&type=3#ArrowLeftPressed");
+}
+
+Button.arrow-right {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -unity-background-image-tint-color: rgb(20, 106, 204);
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("project://database/Assets/Arts/Icons/Buttons/ArrowRight.png?fileID=2800000&guid=1e6ae441bb1f6fd4dabf2dd76aa7d9fa&type=3#ArrowRight");
+}
+
+Button.arrow-right:active {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -unity-background-image-tint-color: rgb(20, 106, 204);
+    background-image: url("project://database/Assets/Arts/Icons/Buttons/ArrowRightPressed.png?fileID=2800000&guid=38111348b7a83de41935f331a30d0658&type=3#ArrowRightPressed");
+}
+
+RadioButtonGroup {
+    flex-grow: 1;
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+RadioButton {
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    background-color: rgb(59, 59, 59);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-width: 4px;
+    border-left-color: rgb(46, 46, 46);
+    border-right-color: rgb(46, 46, 46);
+    border-top-color: rgb(46, 46, 46);
+    border-bottom-color: rgb(46, 46, 46);
+    color: rgb(255, 255, 255);
+    flex-grow: 0;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+RadioButton VisualElement {
+    display: none;
+}
+
+RadioButton Label {
+    flex-grow: 1;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+    white-space: normal;
+    font-size: 12px;
+}
+
+RadioButton .unity-base-field__label {
+    color: rgba(255, 255, 255, 0.96);
+    -unity-text-align: upper-left;
+    -unity-font-style: bold;
+    font-size: 12px;
+    flex-grow: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+RadioButton:selected {
+    background-color: rgb(204, 120, 20);
+    border-left-color: rgb(128, 76, 13);
+    border-right-color: rgb(128, 76, 13);
+    border-top-color: rgb(128, 76, 13);
+    border-bottom-color: rgb(128, 76, 13);
+}
+
+RadioButton:active {
+    border-bottom-width: 1px;
+    margin-top: 11px;
+}
+
+.unity-progress-bar__background {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    background-color: rgb(67, 67, 67);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    overflow: hidden;
+    border-left-color: rgb(67, 67, 67);
+    border-right-color: rgb(67, 67, 67);
+    border-top-color: rgb(67, 67, 67);
+    border-bottom-color: rgb(67, 67, 67);
+    color: rgb(255, 255, 255);
+}
+
+.unity-progress-bar__progress {
+    background-color: rgb(204, 120, 20);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+ProgressBar > Label {
+    -unity-text-align: upper-right;
+    color: rgb(67, 67, 67);
+    border-left-color: rgb(67, 67, 67);
+    border-right-color: rgb(67, 67, 67);
+    border-top-color: rgb(67, 67, 67);
+    border-bottom-color: rgb(67, 67, 67);
+    rotate: 60deg;
+    transform-origin: left bottom;
+    border-bottom-width: 2px;
+    font-size: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 64px;
+    position: absolute;
+    bottom: 0;
+    -unity-font-style: normal;
+    white-space: normal;
+}
+
+.training-card {
+    height: 96px;
+}
+
+RadioButtonGroup.horizontal {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-grow: 0;
+}
+
+RadioButtonGroup.horizontal > Label {
+    display: none;
+}
+
+.horizontal .unity-radio-button-group__container {
+    flex-direction: row;
+}
+
+.horizontal RadioButton {
+    flex-grow: 1;
+    width: 64px;
+    height: 32px;
+}
+
+.horizontal RadioButton .unity-base-field__label {
+    color: rgba(255, 255, 255, 0.96);
+    -unity-text-align: upper-center;
+    -unity-font-style: bold;
+    font-size: 9px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    transform-origin: center;
+    text-overflow: clip;
+    align-self: center;
+}
+
+.horizontal RadioButton:active {
+    border-bottom-width: 1px;
+    margin-top: 12px;
+    height: 28px;
+}
+
+.condition-card {
+    background-color: rgb(59, 59, 59);
+    height: 56px;
+    flex-grow: 0;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    margin-bottom: 12px;
+    flex-direction: row;
+}
+
+.condition-card .icon {
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("project://database/Assets/Arts/Icons/Activities/PoopActivityIcon.png?fileID=2800000&guid=7d2088e035064d94f833b0bb68405e3d&type=3#PoopActivityIcon");
+    width: 40px;
+    flex-grow: 0;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+
+.condition-card .info {
+    flex-grow: 1;
+}
+
+.condition-card .info > Label {
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+    margin-top: 6px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.unity-toggle__input {
+    -unity-text-align: upper-left;
+    flex-direction: row-reverse;
+}

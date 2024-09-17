@@ -1,0 +1,85 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/general-ui.uss?fileID=7433441132597879392&amp;guid=8153f3913cdbbdd44a754631aad116d6&amp;type=3#general-ui" />
+    <Style src="project://database/Assets/inventory.uss?fileID=7433441132597879392&amp;guid=b77f6144229982a4184ce834de2856eb&amp;type=3#inventory" />
+    <Style src="project://database/Assets/UI/main-menu.uss?fileID=7433441132597879392&amp;guid=30584fda57680f44eb1c733120099237&amp;type=3#main-menu" />
+    <ui:VisualElement name="Panel" class="panel" style="flex-grow: 1; align-items: center; justify-content: center;">
+        <ui:VisualElement name="Window" style="flex-grow: 1; background-color: rgb(96, 118, 251); width: 792px; max-height: 1716px; border-left-color: rgb(226, 226, 226); border-right-color: rgb(226, 226, 226); border-top-color: rgb(226, 226, 226); border-bottom-color: rgb(226, 226, 226); border-top-width: 8px; border-right-width: 8px; border-bottom-width: 8px; border-left-width: 8px; border-top-left-radius: 90px; border-top-right-radius: 90px; border-bottom-right-radius: 90px; border-bottom-left-radius: 90px;">
+            <ui:VisualElement name="tabs" style="flex-grow: 1; flex-direction: row; justify-content: center; border-bottom-width: 8px; border-left-color: rgb(226, 226, 226); border-right-color: rgb(226, 226, 226); border-top-color: rgb(226, 226, 226); border-bottom-color: rgb(226, 226, 226); max-height: 210px; font-size: 50px; align-items: center;">
+                <ui:Label tabindex="-1" text="Essen" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Essen" class="tab currentlySelectedTab" />
+                <ui:Label tabindex="-1" text="Spielen" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Spielen" class="tab" />
+                <ui:Label tabindex="-1" text="Pflege" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Pflege" class="tab" />
+            </ui:VisualElement>
+            <ui:VisualElement name="tabContent" style="flex-grow: 1;">
+                <ui:VisualElement name="EssenContent" class="content" style="flex-grow: 1;">
+                    <ui:VisualElement name="col1" class="col" style="flex-grow: 1;">
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="col2" class="col" style="flex-grow: 1;">
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="col3" class="col" style="flex-grow: 1;">
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="SpielenContent" class="unselectedContent content" style="flex-grow: 1;">
+                    <ui:VisualElement name="col1" class="col" style="flex-grow: 1;">
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="col2" class="col" style="flex-grow: 1;">
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="col3" class="col" style="flex-grow: 1;">
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="PfegeContnet" class="unselectedContent content" style="flex-grow: 1;">
+                    <ui:VisualElement name="col1" class="col" style="flex-grow: 1;">
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="col2" class="col" style="flex-grow: 1;">
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="col3" class="col" style="flex-grow: 1;">
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                        <ui:VisualElement name="ItemPlaceholder" class="itemPlaceholder" style="flex-grow: 1;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

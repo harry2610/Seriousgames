@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be1a945d6943a24478c5e325bab4adff, type: 3}
+  m_Name: CheapFood
+  m_EditorClassIdentifier: 
+  id: -4055953145561977749
+  type: 0
+  title: Billiges Futter
+  icon: {fileID: 2800000, guid: 7dcb9e4199b5c78e58faebf07d1336b7, type: 3}
+  prefab: {fileID: 3494039614716279270, guid: f4d4b5cadd8b42d89bf1ebec46fc007b, type: 3}
+  description: "G\xFCnstiges Futter. Nutze es, um deinen Hund zu f\xFCttern."
+  stackLimit: 10
+  price: 50
+  conditionEffects:
+  - condition: {fileID: 11400000, guid: 6deabd83d51a9d6489744a3a03648ebb, type: 2}
+    modifier: 400
+  - condition: {fileID: 11400000, guid: afbd715e82181004d87b9cf19ce010e4, type: 2}
+    modifier: 0.005
+  - condition: {fileID: 11400000, guid: 4cfd90f3b9783ef45ade29164aa93b6a, type: 2}
+    modifier: -0.1
+  bowlType: 1

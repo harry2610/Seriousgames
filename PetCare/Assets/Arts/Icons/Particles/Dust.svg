@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="129.68172mm"
+   height="116.1797mm"
+   viewBox="0 0 129.68172 116.1797"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   sodipodi:docname="Dust.svg"
+   inkscape:export-filename="Dust.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="1.029826"
+     inkscape:cx="329.66733"
+     inkscape:cy="400.06757"
+     inkscape:window-width="3440"
+     inkscape:window-height="1360"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="-17.814844"
+       originy="-42.549899"
+       spacingx="0.99999998"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <filter
+       id="selectable_hidder_filter"
+       width="1"
+       height="1"
+       x="0"
+       y="0"
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="LPE boolean visibility">
+      <feComposite
+         id="boolops_hidder_primitive"
+         result="composite1"
+         operator="arithmetic"
+         in2="SourceGraphic"
+         in="BackgroundImage"
+         k1="0"
+         k2="0"
+         k3="0"
+         k4="0" />
+    </filter>
+    <inkscape:path-effect
+       effect="bool_op"
+       operand-path=""
+       id="path-effect10"
+       is_visible="true"
+       lpeversion="1"
+       operation="union"
+       swap-operands="false"
+       filltype-this="from-curve"
+       filter=""
+       filltype-operand="from-curve" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-17.814843,-42.549901)">
+    <path
+       id="path1"
+       style="fill:#ffffff;stroke:#a5a5a5;stroke-width:1.18;stroke-opacity:0.955455"
+       d="M 83.404491,43.139901 A 25,25 0 0 0 59.540834,60.765182 25,25 0 0 0 48.404563,58.139503 25,25 0 0 0 23.404538,83.139527 a 25,25 0 0 0 6.595463,16.86047 20,19.999998 0 0 0 -11.595158,18.139983 20,19.999998 0 0 0 19.999813,19.99981 20,19.999998 0 0 0 3.89537,-0.43202 15.557384,15.294994 0 0 0 -0.04289,0.5886 15.557384,15.294994 0 0 0 15.557707,15.29519 15.557384,15.294994 0 0 0 13.288078,-7.38715 22.500002,22.5 0 0 0 19.801892,11.93519 22.500002,22.5 0 0 0 22.499917,-22.49992 22.500002,22.5 0 0 0 -0.71779,-5.62291 20,19.999998 0 0 0 10.71769,3.12281 20,19.999998 0 0 0 19.99982,-19.99982 20,19.999998 0 0 0 -3.39153,-11.14195 16.751011,17.205 0 0 0 6.89364,-13.858071 16.751011,17.205 0 0 0 -13.59349,-16.89406 20,19.999998 0 0 0 -19.90834,-18.105871 20,19.999998 0 0 0 -8.6527,1.995227 25,25 0 0 0 -21.347537,-11.995134 z" />
+  </g>
+</svg>

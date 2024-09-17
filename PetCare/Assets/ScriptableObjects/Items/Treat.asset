@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed8bc33afc06fa04cb83066c3092650f, type: 3}
+  m_Name: Treat
+  m_EditorClassIdentifier: 
+  id: -6461192249955023659
+  type: 3
+  title: Snack
+  icon: {fileID: 2800000, guid: aa340bcffe401a140a470b18ac5d2e25, type: 3}
+  prefab: {fileID: 130346794479822825, guid: 009d4778a4803f9848d379c720ca8077, type: 3}
+  description: Du kannst diesen Hundekeks werfen.
+  stackLimit: 10
+  price: 10
+  conditionEffects:
+  - condition: {fileID: 11400000, guid: 6deabd83d51a9d6489744a3a03648ebb, type: 2}
+    modifier: 200
+  - condition: {fileID: 11400000, guid: 6ff091108ad2c554aa0a89b594199c9d, type: 2}
+    modifier: 2
+  - condition: {fileID: 11400000, guid: 6c0ebae11ac685241a10bb7ba2866376, type: 2}
+    modifier: 0.5
+  consumable: 1
