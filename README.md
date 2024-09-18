@@ -19,4 +19,4 @@ Installation:
 - Alternatively, open the HomeMenu scene (Scenes/HomeMenu)  in the Unity Editor, press the play-button and select the simulator tab. Be aware that certain functionalities, like the interactive filling of a bowl, are not possible without using an actual Android phone.
 
 OR:
-- Download the provided APK and install it on your Android phone.
+- <a href="https://github.com/serious-games-darmstadt/LearnPaws/releases/"/>**Download the provided APK**</a> and install it on your Android phone.
