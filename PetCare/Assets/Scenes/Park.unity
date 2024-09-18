@@ -6650,6 +6650,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 269426262225400881, guid: 21520486d8594954a8e4471b30ed1e40,
+        type: 3}
+      propertyPath: TargetFrameRate
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 1671052588838156067, guid: 21520486d8594954a8e4471b30ed1e40,
         type: 3}
       propertyPath: m_LocalPosition.x

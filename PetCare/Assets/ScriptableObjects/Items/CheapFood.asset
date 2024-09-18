@@ -19,7 +19,7 @@ MonoBehaviour:
   prefab: {fileID: 3494039614716279270, guid: f4d4b5cadd8b42d89bf1ebec46fc007b, type: 3}
   description: "G\xFCnstiges Futter. Nutze es, um deinen Hund zu f\xFCttern."
   stackLimit: 10
-  price: 50
+  price: 10
   conditionEffects:
   - condition: {fileID: 11400000, guid: 6deabd83d51a9d6489744a3a03648ebb, type: 2}
     modifier: 400

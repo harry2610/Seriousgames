@@ -19,7 +19,7 @@ MonoBehaviour:
   prefab: {fileID: 3494039614716279270, guid: 21bf28938e279056f931d922336e22ed, type: 3}
   description: "Futter f\xFCr aktive Hunde. Nutze es, um deinen Hund zu f\xFCttern."
   stackLimit: 10
-  price: 80
+  price: 20
   conditionEffects:
   - condition: {fileID: 11400000, guid: 6deabd83d51a9d6489744a3a03648ebb, type: 2}
     modifier: 450
