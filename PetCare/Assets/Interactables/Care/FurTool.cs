@@ -14,5 +14,5 @@ public class FurTool : DogInteractive
         transform.position = hitData.point;
         m_FurSimulation.DrawAtFur(hitData.textureCoord, 0.02f, isDirtLayer, value);
     }
-
+    
 }

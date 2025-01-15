@@ -12,8 +12,7 @@ using UnityEngine.SceneManagement;
 public class GameStateManager : MonoBehaviour
 {
     private static GameStateManager m_Instance;
-    public static GameStateManager Instance
-    {
+    public static GameStateManager Instance { 
         get
         {
             return m_Instance;
@@ -166,8 +165,8 @@ public class GameStateManager : MonoBehaviour
             using (var writer = new BinaryWriter(stream, Encoding.UTF8, false))
             {
                 // File Version 0
-                writer.Write((UInt32)1);
-                writer.Write((Int64)DateTimeOffset.UtcNow.ToUnixTimeMilliseconds());
+                writer.Write((UInt32) 1);
+                writer.Write((Int64) DateTimeOffset.UtcNow.ToUnixTimeMilliseconds());
                 writer.Write((Double)gameState.simulationDayLength);
                 writer.Write((Int32)gameState.inventory.coins);
                 writer.Write((Int32)gameState.inventory.coinsPerDay);
@@ -217,7 +216,7 @@ public class GameStateManager : MonoBehaviour
                     // Save fur condition texture
                     var furData = dog.furConditionTexture.GetPixelData<Byte>(0);
                     writer.Write(furData);
-                    writer.Write((Int64)dog.lastFurUpdate);
+                    writer.Write((Int64) dog.lastFurUpdate);
                     writer.Write((Int64)dog.nextIllnessTime);
                 }
                 writer.Write((UInt32)gameState.quickTips.Length);
@@ -290,7 +289,7 @@ namespace GameState
             foreach (ConditionValue conditionValue in conditions)
             {
                 if (conditionValue.type.id != condition.id) continue;
-
+                
                 conditionValue.value = value;
                 break;
             }
@@ -310,12 +309,12 @@ namespace GameState
             foreach (ConditionValue conditionValue in conditions)
             {
                 if (conditionValue.type.id != condition.id) continue;
-
+                
                 conditionValue.value += value;
                 break;
             }
         }
-
+        
         public void ApplyConditionEffects(IEnumerable<ConditionEffect> effects)
         {
             foreach (ConditionEffect conditionEffect in effects)
@@ -323,13 +322,13 @@ namespace GameState
                 foreach (ConditionValue conditionValue in conditions)
                 {
                     if (conditionValue.type.id != conditionEffect.condition.id) continue;
-
+                    
                     conditionValue.value += conditionEffect.modifier;
                     break;
                 }
             }
         }
-
+        
         public bool IsInConditionRange(ConditionSO condition, int rangeID)
         {
             foreach (ConditionValue conditionValue in conditions)

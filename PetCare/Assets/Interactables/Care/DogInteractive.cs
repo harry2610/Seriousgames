@@ -21,7 +21,7 @@ public abstract class DogInteractive : MonoBehaviour
     protected ParticleSystem m_ParticleInstance;
     private float m_RewardTimer;
     private readonly float timeLimit = 10.0f;
-
+    
     void Start()
     {
         m_RewardTimer = 0.0f;
@@ -33,7 +33,7 @@ public abstract class DogInteractive : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-
+        
         GlobalEvents.Instance.onDogImpulse.Invoke(interactionImpulse, null);
 
         double conditionValue = GameStateManager.Instance.gameState.dogs[0].GetCondition(growlCondition);
@@ -41,27 +41,27 @@ public abstract class DogInteractive : MonoBehaviour
         {
             m_FurSimulation.GetComponent<Body>().StartAnimation(DogAnimation.Growl, null);
         }
-
+        
         // Set Focus on Dog
         m_Camera = Camera.main.GetComponent<StaticCam>();
         // m_Camera.focusYaw = Mathf.PI * 0.5f;
         m_Camera.ObjectFocus(m_FurSimulation.gameObject, cameraDistance, cameraHeightOffset);
         // Send Impulse
-
+        
         m_ParticleInstance = Instantiate(interactionParticles, this.transform);
         m_ParticleInstance.transform.LookAt(m_Camera.transform);
         m_ParticleInstance.Stop();
     }
-
+    
     void Update()
     {
         if (Input.GetMouseButton(0))
         {
             //m_ParticleInstance.transform.LookAt(m_Camera.transform);
             var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-
-
-
+            
+            
+            
             if (!Physics.Raycast(ray, out RaycastHit hitData, 1000)) return;
             if (hitData.transform.parent == null || hitData.transform.parent.gameObject != m_FurSimulation.gameObject) return;
 
@@ -71,7 +71,7 @@ public abstract class DogInteractive : MonoBehaviour
                 m_Conditions.Apply();
                 m_ConditionTimer = timeToApplyConditions;
             }
-
+            
             this.transform.rotation = Quaternion.LookRotation(hitData.normal);
             m_ParticleInstance.Play();
             m_RewardTimer += Time.deltaTime;
@@ -90,12 +90,12 @@ public abstract class DogInteractive : MonoBehaviour
     }
 
     protected abstract void OnDogHit(RaycastHit hitData);
-
+    
     private void OnDestroy()
     {
         if (m_Camera != null)
             m_Camera.EndObjectFocus();
-
+        
         if (GlobalEvents.Instance != null)
             GlobalEvents.Instance.onDogImpulse.Invoke(idleImpulse, null);
     }
