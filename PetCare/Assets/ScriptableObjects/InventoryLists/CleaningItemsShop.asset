@@ -29,6 +29,10 @@ MonoBehaviour:
     Amount: 1
     SlotID: 3
     IsInUse: 0
+  - Item: {fileID: 11400000, guid: 973c890b6e3f91e4faf2aaf8d7baca2d, type: 2}
+    Amount: 1
+    SlotID: 4
+    IsInUse: 0
   onInventoryChanged:
     m_PersistentCalls:
       m_Calls: []

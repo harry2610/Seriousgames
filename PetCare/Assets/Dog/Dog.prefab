@@ -2558,8 +2558,11 @@ MonoBehaviour:
     habits: []
     commands: []
     conditions: []
+    lastConditionUpdate: 0
     furConditionTexture: {fileID: 0}
     lastFurUpdate: 0
+    nextIllnessTime: 0
+    lastTeethUpdate: 0
   commands:
   - phrases: sitz
     rehearsed: 100
@@ -2588,6 +2591,9 @@ MonoBehaviour:
   waitCommand: {fileID: 11400000, guid: b34650687121f6d42a80a67355bfded3, type: 2}
   sitCommand: {fileID: 11400000, guid: d4d5f55ff0dbe624b804b39fd4c03584, type: 2}
   idleImpulse: {fileID: 11400000, guid: 3d7e4c864994cd84dae85ec733371ca1, type: 2}
+  lastImprovableBehaviour:
+    educationalSource: {fileID: 0}
+    isGood: 0
 --- !u!82 &5901003140665076552
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2698,7 +2704,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dirtinessChangeTexture: {fileID: 2800000, guid: f27a10acfac3623b8a2db105d85eff99,
     type: 3}
-  simulationStepDelay: 60000
 --- !u!1 &6713781985985882799
 GameObject:
   m_ObjectHideFlags: 0
